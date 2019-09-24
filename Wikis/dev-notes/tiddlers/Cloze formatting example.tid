@@ -1,0 +1,14 @@
+created: 20190922170057520
+modified: 20190922170119780
+title: Cloze formatting example
+type: text/vnd.tiddlywiki
+
+A cloze test is an exercise,
+test, or assessment consisting of 
+a portion of language with 
+certain items, words, or signs removed, 
+where the participant is asked to replace the missing language item. 
+
+Formatted as:
+
+`Dogs are {{ c1::man's }} best friend.`
