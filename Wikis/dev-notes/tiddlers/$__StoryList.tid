@@ -1,6 +1,6 @@
-created: 20181214052711633
-list: [[Solve code sharing and setup project with Lerna and monorepo]] Directory Dashboard
-modified: 20181214052712728
+created: 20190922210250611
+list: [[Shallow rendering is a tool aimed squarely at unit testing React Components.]] [[Unit tests help to ensure that your resulting code is comprised of small, modular, single responsibility pieces that can be reused and composed together to solve larger problems]] [[In Defense of Shallow Rendering]] [[has support for scoped packages.]] Lerna Article React-Hooks [[Making Sense of React Hooks]] [[Solve code sharing and setup project with Lerna and monorepo]] Directory Dashboard
+modified: 20190922211916125
 title: $:/StoryList
 type: text/vnd.tiddlywiki
 
