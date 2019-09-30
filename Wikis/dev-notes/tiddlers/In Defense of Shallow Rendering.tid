@@ -1,7 +1,8 @@
 created: 20190922210326112
 list: 
-modified: 20190922211916131
+modified: 20190930181554577
 publisher: Tim Doherty
+purposes: <<list-links filter:'[tag[Testing]tag[Purpose]]' >>
 released: 09/18/2019
 source: https://medium.com/@tim.c.doherty/in-defense-of-shallow-rendering-5f627f7c155d
 tags: Testing _isRead ToReference ToExplore Article

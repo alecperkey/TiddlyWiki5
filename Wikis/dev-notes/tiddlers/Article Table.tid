@@ -1,14 +1,19 @@
 created: 20181207193433575
-modified: 20190102151345914
+modified: 20190930182142835
 tags: 
 title: Article Table
 type: text/vnd.tiddlywiki
 
 ```
-<<RowTable '[tag[Article]]' "release publisher source" 'Topic Purpose Article_property' '-'>>
+<<RowTable '[tag[Purpose]]' '-' 'Node Topic Article' 'Article Topic Purpose'>>
+
+<<RowTable '[tag[Article]]' 'release publisher source' 'Topic Purpose Article_property' ''>> 
+fields to consider: modified
+
+<<RowTable '[tag[Topic]]' '-' 'Node Topic' 'Article Purpose'>>
 
 
 \define RowTable(filter fields tagtypes nodetags)
 ```
 
-<<RowTable '[tag[Article]]' 'release publisher source' 'Topic Purpose Article_property' ''>>
+<<RowTable '[tag[Article]]' 'released publisher source' 'Topic Purpose Article_property' ''>>

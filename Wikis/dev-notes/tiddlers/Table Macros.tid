@@ -1,5 +1,5 @@
 created: 20150319034848355
-modified: 20181211192736200
+modified: 20190930182546456
 tags: $:/tags/Macro
 title: Table Macros
 type: text/vnd.tiddlywiki
@@ -384,7 +384,7 @@ $:/state/tables/Sort/$(RowOrColumn)$/$(FieldsList)$
     </th>
     <$list filter=<<FieldsList>> variable=ThisField>
       <td>
-        <<TableMacrosInlineNoEditButton>>
+        <<TableMacrosInlineEditButton>>
       </td>
     </$list>
 
@@ -405,8 +405,8 @@ $:/state/tables/Sort/$(RowOrColumn)$/$(FieldsList)$
 \end
 
 \define TableMacrosInnerRowTable()
-<$set name=FieldsList1 filter='$(RowList)$+[fields[]]-[[text]]-[[title]]-[[modified]]-[[created]]-[[tags]]'>
-<$set name=FieldsList filter='[is[system]!is[system]]$(FieldsUsed)$' emptyValue=<<FieldsList1>>>
+<$set name=FieldsList1 filter='$(RowList)$+[fields[]]-[[text]]-[[title]]-[[modified]]-[[tags]]'>
+<$set name=FieldsList filter='[is[system]!is[system]]$(FieldsUsed)$' emptyValue='<<FieldsList1>>'>
 <$set name=TagsTypeList filter='[is[system]!is[system]]$(TagTypesUsed)$' emptyValue='-'>
 <$set name=NodeTagsList filter='[is[system]!is[system]]$(NodeTagsUsed)$' emptyValue='-'>
 <$set name=RowOrColumn value=Row>
@@ -483,6 +483,17 @@ $:/state/tables/Sort/$(RowOrColumn)$/$(FieldsList)$
 </div>
 </$reveal>
 \end
+
+\define TableMacrosInlineNoEditButton()
+<$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+<div class="tc-tags-wrapper">
+
+<$list filter='[tag[$(ThisTiddler)$]tag[$(ThisNodeTag)$]]' storyview="pop"/>
+
+</div>
+</$reveal>
+\end
+
 
 \define TableMacrosInlineTags()
 <$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
