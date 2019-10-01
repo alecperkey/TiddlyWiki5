@@ -1,0 +1,46 @@
+created: 20190930163655383
+modified: 20190930172218438
+tags: os-project
+title: Outline
+type: text/vnd.tiddlywiki
+
+
+https://github.com/outline
+
+* Pitch: The fastest wiki and knowledge base for growing teams. Beautiful, feature rich, markdown compatible and open source. https://www.getoutline.com
+* Features: Team wiki, documentation, meeting notes, playbooks, onboarding, work logs, brainstorming, & more…
+* [[Outline Integrations]]:
+** Design:
+*** [[Abstract]]
+*** [[Figma]]
+*** [[Framer]]
+*** [[InVision]]
+*** [[Marvel]]
+** Collaboration:
+*** [[Airtable]]
+*** [[Lucidchart]]
+*** [[Mindmeister]]
+*** [[Miro]]
+*** [[Slack]]
+*** [[Trello]]
+*** [[Typeform]]
+*** [[Prezi]]
+** Developers:
+*** [[Codepen]]
+*** [[Github Gist]]
+*** [[Mode Analytics]]
+*** [[Numeracy]]
+*** [[Zapier]]
+* Purpose: 
+** Improve Communication
+*** Easily structure your team’s information in one central, structured location. No more hunting through folders or scanning pages of search results and chat conversations.
+** Safe & Secure
+*** Outline provides a secure place for your team’s documentation on our hosted platform, stored in portable Markdown format. Or, you can run your own copy – it’s open source
+** Blazing Fast
+*** Outline is fast, really fast. We’ve worked hard to ensure millisecond response times – documents load instantly, search is speedy and navigating the UI is delightful.
+** Markdown Support
+*** Documents are stored in plain Markdown making editing, import and export painless. Shortcuts are also built right into the editor so you can easily format using **markdown syntax** if you like.
+** Slack & API
+*** Get Slack notifications about changes and search Outline directly within Slack using the /outline keyword command. Access your information programatically through the modern API 
+** Open Source
+*** Outline is open source, so the community can help improve it too. You get new features, interface improvements, bug fixes, and a transparent roadmap for free.

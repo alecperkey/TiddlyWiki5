@@ -1,5 +1,5 @@
 created: 20190115180152582
-modified: 20190115185842996
+modified: 20190930001902183
 tags: yak
 title: microinterruptions
 type: text/vnd.tiddlywiki
@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 Types:
 <<list-links filter:"[tag[mi.type]]">>
 
-All:
+All tagged microinterruption:
 <<list-links filter:"[tag[microinterruption]]">>
 
 Further Reading:

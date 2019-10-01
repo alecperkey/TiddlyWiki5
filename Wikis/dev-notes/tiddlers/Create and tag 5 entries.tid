@@ -1,11 +1,12 @@
 created: 20181207153136572
-gsd_complete: false
+gsd_comp_date: 20190924215659492
+gsd_complete: true
 gsd_contact: aperk
 gsd_project: Basic Reading List
 gsd_realm: all
 gsd_status: next
 gsd_type: action
-modified: 20181207174903717
+modified: 20190924215700595
 title: Create and tag 5 entries
 type: text/vnd.tiddlywiki
 

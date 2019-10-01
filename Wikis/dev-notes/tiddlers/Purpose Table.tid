@@ -1,11 +1,15 @@
 created: 20181211195125557
-modified: 20181211195634371
+modified: 20190930174417356
 tags: 
 title: Purpose Table
 type: text/vnd.tiddlywiki
 
 ```
-<<RowTable '[tag[Purpose]]' '-' 'Node Topic' 'Article Topic Purpose'>>
+<<RowTable '[tag[Purpose]]' '-' 'Node Topic Article' 'Article Topic Purpose'>>
+
+<<RowTable '[tag[Article]]' 'release publisher source' 'Topic Purpose Article_property' ''>>
+
+<<RowTable '[tag[Topic]]' '-' 'Node Topic' 'Article Purpose'>>
 ```
 
-<<RowTable '[tag[Purpose]]' '-' 'Node Topic' 'Article Topic Purpose'>>
+<<RowTable '[tag[Purpose]]' '-' 'Node Topic' 'Article'>>
