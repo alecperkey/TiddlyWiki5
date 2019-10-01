@@ -1,0 +1,13 @@
+created: 20190930192407721
+creator: Mat von TWaddle
+modified: 20190930192823297
+modifier: Mat von TWaddle
+tags: $:/tags/Macro
+title: $:/aperk/iframe
+type: text/vnd.tiddlywiki
+
+\define iframe(uri, h)
+<iframe width="100%" height="$h$" scrolling="no" frameborder="no" src="$uri$"></iframe>
+\end
+
+<$macrocall $name=iframe uri=<<uri>> h=<<h>>/>
