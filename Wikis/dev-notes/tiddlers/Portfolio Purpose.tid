@@ -1,0 +1,10 @@
+created: 20191001180957854
+modified: 20191001181030664
+title: Portfolio Purpose
+type: text/vnd.tiddlywiki
+
+Tagged {{!!title}}:
+
+<<list-links filter:'[tag[portfolio-purpose]]' >>
+
+

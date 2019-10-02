@@ -1,0 +1,18 @@
+created: 20191001174009477
+list: 
+modified: 20191001180821806
+publisher: Finn Qiao
+released: 06/17/2018
+source: https://medium.com/@finnqiao/product-vs-product-google-sheets-vs-airtable-386cb38a31fd
+tags: Collaboration-tools _isUnread Article
+title: Product vs. Product: Google Sheets vs. Airtable
+topics: Collaboration Tools
+type: text/vnd.tiddlywiki
+
+[[Benefits of Airtable]]
+
+{{Benefits of Airtable}}
+
+<$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+<div class="tc-tags-wrapper"><$list filter="[all[current]tags[]sort[title]]" template="$:/core/ui/TagTemplate" storyview="pop"/></div>
+</$reveal>

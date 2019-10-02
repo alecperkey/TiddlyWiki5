@@ -5,8 +5,8 @@ gsd_project: Portfolio
 gsd_realm: all
 gsd_status: next
 gsd_type: action
-modified: 20190930002548645
+modified: 20191001180955437
 title: list questions portfolio should answer
 type: text/vnd.tiddlywiki
 
-<<list-links filter:'[tag[portfolio-purpose]]' >>
+[[Portfolio Purpose]]
