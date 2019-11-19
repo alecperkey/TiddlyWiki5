@@ -1,8 +1,29 @@
 created: 20191001181723039
-modified: 20191001181902868
+modified: 20191005164432137
 tags: TBD portfolio-purpose
 title: generic interview questions
 type: text/vnd.tiddlywiki
 
 * [[projects I am proud of]]
 * [[what do you look for in a team]]
+
+* https://careers.superformula.com/o/sr-frontend-engineer-ui-focused/c/new
+** Tell us about something you've built that you're proud of? What aspects did you take pride in the most?
+** Have experience with server-side react? If so, please describe your role and experience on the project.
+** Do you have a strong preference for how you like to manage state in react apps? Please share, what else have you used and how do you evaluate your options here?
+** What major changes to your workflow have happened in the last year?
+** What are some trends in the JavaScript ecosystem that you're excited about?
+** Have you ever worked on web applications for the hospitality industry?
+** Do you have experience working with remote teams? *
+** Do you consider yourself more of an architectural or UI-focused engineer?
+** This job is more UI than architectural. It is important to have an understanding of architectural best practices, Superformula needs engineers that can translate the design team's vision into modular components and styles. Are you comfortable in that role? *
+** With respect to styles in general, describe some of the conventions you follow when working on a larger team and why.
+* https://careers.superformula.com/o/sr-software-engineer-nodejs-usa/c/new
+** Describe your typical project, workflow, or product experience with building Backend services. 
+** Please describe a couple recent and successful large scale projects you've worked on. Articulate on your role within this product and which aspects you took most pride in? 
+** Have you ever worked fully remote before? How do you feel about this experience? *
+** What major changes to your workflow have happened in the last year?
+** Do you consider yourself more of a Scaling/Distributed Systems Engineer or a Business Logic/API Engineer? Why? *
+
+more:
+https://www.one-tab.com/page/1cQ4hxrQQV6KjvquSMyBWA
