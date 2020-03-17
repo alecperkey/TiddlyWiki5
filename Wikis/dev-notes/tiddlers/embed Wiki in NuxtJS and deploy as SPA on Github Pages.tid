@@ -1,0 +1,14 @@
+created: 20200317023920415
+gsd_action: 
+gsd_complete: false
+gsd_contact: 
+gsd_project: deploy Portfolio
+gsd_realm: all
+gsd_status: waiting
+gsd_type: action
+list-after: [[touch up Wiki for presentableness]]
+modified: 20200317184255589
+tags: ReactiWiki
+title: embed Wiki in NuxtJS and deploy as SPA on Github Pages
+type: text/vnd.tiddlywiki
+

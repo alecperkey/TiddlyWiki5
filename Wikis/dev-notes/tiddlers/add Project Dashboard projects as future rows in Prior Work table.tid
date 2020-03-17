@@ -1,0 +1,14 @@
+created: 20200305035837261
+gsd_complete: false
+gsd_contact: 
+gsd_project: create Prior Work table
+gsd_realm: all
+gsd_status: future
+gsd_type: action
+modified: 20200317185327160
+title: add Project Dashboard projects as future rows in Prior Work table
+type: text/vnd.tiddlywiki
+
+[[Project Dashboard]]
+
+[[Prior Work table]]

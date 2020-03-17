@@ -1,18 +1,9 @@
 created: 20160307193957653
-modified: 20190924220206730
+modified: 20200317063144283
+route_type: root
 tags: 
 title: Directory
 tmap.id: 439ee05a-62d2-44e2-ba32-7a3ae60c9268
 type: text/vnd.tiddlywiki
 
-*[[Article Table]]
-*[[Topic Table]]
-*[[Purpose Table]]
-
----
-*[[Chrome Extensions]]
-*[[Meta]]
-** [[Yak]]
-** [[Tag System]]
-** [[test cloze generation from tags of Topic tagged Purpose]]
-*[[cloze]]
+Directory

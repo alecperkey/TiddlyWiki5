@@ -1,0 +1,11 @@
+created: 20200305011421423
+gsd_complete: false
+gsd_contact: 
+gsd_project: improve Time Management
+gsd_realm: all
+gsd_status: future
+gsd_type: action
+modified: 20200317185407688
+title: modify tiddler showeditpane state to yes upon editing tiddler (so it is yes by default)
+type: text/vnd.tiddlywiki
+
