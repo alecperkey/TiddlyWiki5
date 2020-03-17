@@ -1,6 +1,6 @@
 calendar_slot: daily::8.5::9
 created: 20200309025855530
-modified: 20200310041903855
+modified: 20200317052545132
 mr.solid.daily_next: [[mr.solid.daily.P1::6]]
 tags: 
 title: mr.solid.daily.Workday_Prep
@@ -19,7 +19,7 @@ type: text/vnd.tiddlywiki
 #** [[Interesting Questions]] 
 #** Reframe Doubts and Worries as Challenges and Opportunities
 # Finally: 
-## Open [[Dashboard]] & [[Calendar Week schedule]]
+## Open [[Dashboard]] & [[Calendar]]
 ## Open browser tabs for each Action (from OneTab links on schedules)
 ## Note on schedule any new changes and re-estimate briefly
 

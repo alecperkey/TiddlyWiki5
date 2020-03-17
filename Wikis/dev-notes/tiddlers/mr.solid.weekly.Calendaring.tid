@@ -1,6 +1,6 @@
 calendar_slot: Weekly:Sunday:9::12
 created: 20200308212644261
-modified: 20200316122837116
+modified: 20200317042134555
 tags: 
 title: mr.solid.weekly.Calendaring
 tmi_type: mr
@@ -11,11 +11,11 @@ See [[Weekly Calendaring]]
 
 * ''Schedule''
 ** //after// [[Weekly Iterations log]] //{{mr.solid.weekly.Iterations!!calendar_slot}}//
-** //after// [[Goal Reflections log]] //{{mr.solid.weekly.Goal_Reflections!!calendar_slot}}//
+** //after// [[Goal Reflections log]] //{{mr.solid.weekly.Goal Reflections!!calendar_slot}}//
 ** ''Calendar Slot: ''{{!!calendar_slot}}
 *** replaces daily [[Solid Repeats]] for [[P1::6|mr.solid.daily.P1::6]] //Daily:Mon::Sat::9::12//
 * ''Plan Pomodoro's (P's)'' 
-** Have already [[Goal_Reflections|mr.solid.weekly.Goal_Reflections]] week prior
+** Have already [[Goal Reflections|mr.solid.weekly.Goal Reflections]] week prior
 ** Allocate [[P1::12]] [[Pomodoro Estimations]] for Monday::Saturday
 *** Unfinished Actions from prior week
 *** Existing Actions from project backlogs

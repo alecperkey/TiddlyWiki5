@@ -1,18 +1,17 @@
 calendar_slot: daily:12::13
 created: 20200309041412831
-modified: 20200310041553535
+modified: 20200317031751739
 mr.solid.daily_next: [[mr.solid.daily.P7::16]]
 tags: 
 title: mr.solid.daily.Lunch_Reflection
 tmi_type: {{!!title}}
 type: text/vnd.tiddlywiki
 
-
 # Leave desk with [[Paper Journal]]
 # Cook lunch, while noting any stray ideas
 # Eat outside, with Water #3
 # [[Liquid Project]] actions (i.e. [[Reading List]], [[Podcast List]], etc) while in Sun, journaling and relaxing
-# Do one additional [[Workday Prep Exercise]] with 20-10 minutes remaining
+# Do one additional [[Workday Prep Exercises]] with 20-10 minutes remaining
 #Open necessary Tabs and make any re-estimations for next work period
 
 * //Reminder//
