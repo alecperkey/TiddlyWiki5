@@ -1,9 +1,14 @@
-created: 20191001181903512
-modified: 20191001182028812
-tags: TBD portfolio-purpose
-title: interesting questions
+created: 20200305061856133
+modified: 20200305061944435
+tags: 
+title: Interesting Questions
 type: text/vnd.tiddlywiki
 
-* [[what do you read]]
-* [[what would an ideal project look like]]
-* [[what fuels my curiosity]]
+Tagged: <<tag filter:"[tag[REPLACE]]">>
+
+<<list-links filter:"[tag[REPLACE]]">>
+
+* [[what do you read?]]
+* [[what would an ideal project look like?]]
+* [[what fuels your curiosity?]]
+* [[who are some of your favorite thinkers?]]

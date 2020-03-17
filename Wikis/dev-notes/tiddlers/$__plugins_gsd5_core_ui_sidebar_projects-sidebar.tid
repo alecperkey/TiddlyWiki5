@@ -1,0 +1,12 @@
+caption: Projects
+created: 20200317022003909
+modified: 20200317022227539
+tags: $:/tags/SideBar
+title: $:/plugins/gsd5/core/ui/sidebar/projects-sidebar
+type: text/vnd.tiddlywiki
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/active-project-list"/>
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/future-project-list"/>
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/completed-project-list"/>

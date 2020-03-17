@@ -1,0 +1,16 @@
+calendar_slot: daily:23.5::7.5
+created: 20200309045822164
+list_after: mr.solidi.weekly.Waking
+modified: 20200310041316164
+mr.solid.daily_next: [[mr.solid.daily.Waking]]
+tags: 
+title: mr.solid.daily.Sleep
+tmi_type: {{!!title}}
+type: text/vnd.tiddlywiki
+
+# Brush teeth if haven't
+# Don't use phone or laptop
+# Focus on dream potentiation / visualization
+* ''Pitfalls'': try some [[Sleep Onset Techniques]]
+
+

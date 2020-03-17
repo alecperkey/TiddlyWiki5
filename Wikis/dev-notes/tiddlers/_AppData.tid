@@ -1,0 +1,43 @@
+about:  about field content of /AppData Tiddler
+canonical_uri: <$view field="triple" format='urldecoded' /> </$transclude>
+created: 20200315221704393
+ext: /AppData/Roaming/Code%20-%20Insiders/User
+host: http://localhost:8887
+modified: 20200316181248271
+tags: 
+title: /AppData
+translinkfield: <<Ext ext:"/AppData" host:"http://localhost:8887" >>
+type: text/vnd.tiddlywiki
+
+---
+!![[ExternalLinkMacro]]
+
+<<<
+```
+<<Ext "AppData" "" >>
+```
+<<Ext "AppData" "" >>
+<<<
+---
+!! Via field transclusion
+
+<<<
+```
+{{!!translinkfield}} 
+<<Ext 
+ext: "/AppData" 
+host: "http://localhost:8887"
+>>
+```
+{{!!translinkfield}}
+<<<
+
+!! Via MacroCall
+```
+<$macrocall $name="Ext" ext={{{[is[current]field:has{ext}get[ext]]}}}
+host={{{[is[current]field:has{host}get[host]]}}}
+/>
+```
+<$macrocall $name="Ext" ext={{{[is[current]field:has{ext}get[ext]]}}}
+host={{{[is[current]field:has{host}get[host]]}}}
+/>

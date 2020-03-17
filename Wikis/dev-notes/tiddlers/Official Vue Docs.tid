@@ -1,0 +1,15 @@
+created: 20200311093727036
+list: 
+modified: 20200311094303821
+tags: Vue-Guide ToReference Vue
+title: Official Vue Docs
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="Official Vue Docs"
+    sort=sort[title]
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>

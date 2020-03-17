@@ -1,0 +1,8 @@
+created: 20200308212415264
+modified: 20200308212450922
+tags: tmi_type
+title: ~tmi~eff_type
+tmi_type: type
+type: text/vnd.tiddlywiki
+
+''<<tree prefix:"~eff_" separator:".">>''

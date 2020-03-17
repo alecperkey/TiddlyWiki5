@@ -1,0 +1,28 @@
+created: 20200307035315673
+list: 
+modified: 20200311093719687
+tags: [[Vue CLI Generated Html]] ToReference Vue
+title: Vue vs React Cheat Sheet
+type: text/vnd.tiddlywiki
+
+!!Vue vs React Cheatsheet
+
+*[[Vue Syntactic Sugars]]
+** ''Vue Directives'' (straightforward, as is conditional logic in JS)
+*** "Element inserted/removed based on truthiness: `v-if`, `v-else-if`, `v-else`, `v-show`, `v-model`", whereas React JSX would use JS conditional logic directly in the `render` function
+** ''Vue List Rendering'' (React render functions can get messy with too much inlining unless devs follow certain conventions. Vue is enforcing the cleaner approach separating logic from template as much as possible.)
+*** `v-for` sugar for mapping an iterable and outputting children. Defined on the templates sole `<li>` if one were mapping list items. In React, you would write a function in to return the jsx, and place it in `<ul>{{ this.state.reptiles.map( reptile => <li>{reptile}</li> ) }}</ul>`
+** ''Vue Binding ''(quite nice `:` shorthand in Vue)
+*** <img src="https://i.imgur.com/id2Ws6Q.png">
+** ''Vue Actions / Events ''(quite nice `@` shorthand in Vue)
+*** <img src="https://i.imgur.com/eE9b9G0.png">
+*** more shorthands to prevent default behavior `.prevent` and only trigger once `.once` appended to the directive
+*** this one's really cool too:
+**** <img src="https://i.imgur.com/FurlbOD.png">
+** ''Vue Component Anatomy''
+*** [[Vue Essentials Cheat Sheet]] illustrates Vue.component as a factory for creating instances with a great API for keeping logic clean & structured.
+
+
+*[[Vue plugin system]]
+*[[Vue directives index]]
+*[[Vue transitions]]

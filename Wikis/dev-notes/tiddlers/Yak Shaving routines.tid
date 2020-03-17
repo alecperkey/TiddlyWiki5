@@ -1,0 +1,19 @@
+created: 20190115175303149
+modified: 20200307060249217
+tags: yak meta
+title: Yak Shaving routines
+type: text/vnd.tiddlywiki
+
+<<<
+''Yak Shaving'' is a metaphor for the things you need to do in order to do the thing you need to do so that you can do the thing you actually want to
+<<<
+
+''Purpose'': increase [[flow]] by reducing [[Micro Interruptions]] by: 
+
+# identify [[Micro Interruptions]]
+#* //optional//: prioritize by impact
+# identify solutions
+#* optional: prioritize by effort, etc
+# apply solutions
+
+{{microinterruptions}}

@@ -1,13 +1,8 @@
 created: 20190115183629383
-modified: 20190115185032789
-tags: mi.type
+list: 
+modified: 20200308083621438
+tags: mi_type
 title: mi.chrome
 type: text/vnd.tiddlywiki
 
 [[shortcuts.chrome]]
-
-Types:
-<<list-links filter:"[tags[mi.type]tag[mi.chrome]]">>
-
-All:
-<<list-links filter:"[tag[mi.chrome]]">>

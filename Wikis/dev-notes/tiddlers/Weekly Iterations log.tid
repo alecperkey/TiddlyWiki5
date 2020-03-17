@@ -1,0 +1,9 @@
+calendar_slot: Weekly:Saturday:21::24
+created: 20200308220642670
+modified: 20200317023140853
+tags: 
+title: Weekly Iterations log
+tmi_type: mr
+type: text/vnd.tiddlywiki
+
+{{mr.solid.weekly.Iterations}}

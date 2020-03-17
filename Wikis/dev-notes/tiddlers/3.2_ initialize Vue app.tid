@@ -1,0 +1,41 @@
+created: 20200311003024498
+list: 1
+modified: 20200311100935121
+tags: @vue/cli Vue IMC.Demo
+title: 3.2: initialize Vue app
+type: text/vnd.tiddlywiki
+
+''Use @vue/cli for boilerplate''
+
+* https://cli.vuejs.org/guide/creating-a-project.html#vue-create
+* 
+
+```javascript
+yarn global add @vue/cli @vue/cli-service-global
+yarn create repzio-app
+```
+
+''Installed CLI Plugins''
+
+<<<
+babel typescript pwa router vuex eslint unit-jest
+<<<
+
+*Add any desired config: 
+** config Readmes for 7 above: https://www.one-tab.com/page/Dk7KIjfwR32Mc0ZR4cLx8g
+
+# utilize ''run jest --watch'' via npm script: `"watch": "vue-cli-service test:unit --watch"` in `package.json`
+# prefer `max_line_length = 70` in `.editorconfig`
+# initialize git repo, and `.gitignore` the `test.json` data for now,
+# //''ok, get on with it''//
+
+''Startup''
+
+```
+yarn watch
+
+// in another terminal
+yarn serve
+```
+
+[[]]

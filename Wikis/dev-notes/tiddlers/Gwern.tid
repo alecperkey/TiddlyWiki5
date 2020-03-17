@@ -1,0 +1,11 @@
+created: 20200307055339310
+modified: 20200307055724042
+title: Gwern
+type: text/vnd.tiddlywiki
+
+Gwern does research on AI, genetics, [[GPT-2]], 
+
+* https://www.gwern.net/Links#uses-this
+** I run Ubuntu Linux with a [[tiling window manager]] & [[CLI-centric habits]]. (I prefer Debian but the support of NVIDIA drivers has been better with Ubuntu, so as long as I need GPU acceleration, I will be using Ubuntu). I began using tiling window managers with ratpoison and helped drive the initial development of StumpWM and then [[xmonad]] (my config), which I still use in conjunction with [[MATE]], a fork of the last good GNOME desktop environment version before the crazy GNOME 3 ruined everything.
+** I spend most of my time in Emacs editing [[Markdown]] (my config), Firefox (extensions: [[Evernote plugin]], [[HTTPS Everywhere]], [[NoScript]], [[uBlock origin]], [[LastPass]], [[RECAP]]), or urxvt/Bash/screen. Most of my programming of R/Haskell/Python is done in a REPL+Emacs. (Friends don’t let friends use heroin or org-mode.)
+**Miscellaneously: I use [[Mnemosyne]] for spaced repetition, [[Liferea]] for [[RSS]], [[Evernote]]/[[NixNote]] for clippings/notes, [[rTorrent]] for downloads, mpv/Clementine for media playing, [[irssi]] for [[IRC]], [[arbtt]] for [[time-tracking]], [[ledger]] for finances & [[Google Calendar]] for [[scheduling]]/[[reminders]], [[Redshift]] for [[screen tinting]] at night to help bedtimes, and [[duplicity]] for [[backups]].

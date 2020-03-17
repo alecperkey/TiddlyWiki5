@@ -1,0 +1,17 @@
+calendar_slot: Weekly:Saturday:23::24
+created: 20200309023438324
+modified: 20200316141716529
+mr_date: 1/2/3
+parent: mr.solid.weekly.Goal_Reflections
+source: [[mr.solid.weekly.Goal_Reflections-log]]
+tags: [[Goal Reflections log entry]]
+title: mr.solid.weekly.Goal_Reflections-log
+tmi_type: mr.solid.weekly.Goal_Reflections-log
+type: text/vnd.tiddlywiki
+
+|Source:|{{!!source}}|
+
+{{mr.solid.weekly.Goal_Reflections}}
+---
+
+<<list-links filter:'[tag[Goal Reflections log entry]has:field{}]' >>

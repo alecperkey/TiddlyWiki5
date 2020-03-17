@@ -1,0 +1,31 @@
+created: 20200310014734756
+modified: 20200310235803534
+tags: [[IMC Interview]]
+title: 2.a. Preparing for Call with IMC
+type: text/vnd.tiddlywiki
+
+# ''Plan:'' 
+#* Pick out what it is they are looking to confirm. 
+#**//''from the job description''// 
+#** //''and from interviewers''// #*** LinkedIn/Github: [[Francisco Quintero]] (Front-End developer)
+
+
+# ''Findings''
+#* JS frameworks: ''[[Vue]]'' (''priority'' according to recruiter John Harris), Angular, Backbone, Ember, React
+#* [[SaaS]]
+#* [[responsive/mobile UI]]
+#* [[cross-browser dev]]
+#* [[Azure]] platform, 
+#* [[DevOps]] best practices
+#* [[Git]]
+#* [[Software Engineering Methodologies]]
+#** in particular [[SCRUM/Agile]]
+#* [[Ideal Developer]] qualities
+#** especially: ''Strong writing, presentation, and documentation skills'' [[Workplace Communication]]
+# ''Review'' these [[Development Topics]], and develop your understanding of them __''so you always have something insightful to say''__ when asked.
+#* for example, see [[Code Maintainability]] or other items in [[Interview Topics]]
+
+---
+Previous: [[1. Recruiter Call for IMC]]
+
+Next: [[2.b Client Introduction with IMC]]

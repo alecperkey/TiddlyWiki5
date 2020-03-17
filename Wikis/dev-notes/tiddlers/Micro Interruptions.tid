@@ -1,0 +1,11 @@
+about: [[Micro Interruptions]] must be continually evaluated and reduced. They are a primary concern of [[Yak Shaving routines]]
+created: 20190115180152582
+modified: 20200308093820123
+tags: yak
+title: Micro Interruptions
+type: text/vnd.tiddlywiki
+types: {{~fs_mi.type!!tree}}
+
+!!{{!!about}}
+---
+{{!!types}}

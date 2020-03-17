@@ -1,0 +1,49 @@
+created: 20200302152159736
+list: 
+modified: 20200305022723556
+publisher: https://gist.github.com/staltz
+released: 1/1/2020
+source: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+tags: [[Reactive Programming]] ToReference Article _isRead
+title: The introduction to Reactive Programming you've been missing
+topics: Reactive Programming
+type: text/vnd.tiddlywiki
+
+<<<
+Terms like "reactive" and "propagation of change" don't convey anything specifically different to what your typical MV* and favorite language already does. Of course my framework views react to the models. Of course change is propagated. If it wouldn't, nothing would be rendered.
+
+So let's cut the bullshit.
+
+''Reactive programming is programming with asynchronous data streams.''
+<<<
+
+
+<<<
+''On top of that, you are given an amazing toolbox of functions to combine, create and filter any of those streams''. That's where the "functional" magic kicks in. A stream can be used as an input to another one. Even multiple streams can be used as inputs to another stream. You can merge two streams. You can filter a stream to get another one that has only those events you are interested in. You can map data values from one stream to another new one.
+<<<
+
+Observers ''subscribe'' to the stream.
+ -- [[Observer Design Pattern]]
+
+---
+
+
+<<<
+In common Reactive libraries,'' each stream has many functions attached to it'', such as `map`, `filter`, `scan`, etc. When you call one of these functions, such as `clickStream.map(f)`, it returns a new stream based on the click stream. It does not modify the original click stream in any way. This is a property called ''immutability'', which allows us to chain functions like `clickStream.map(f).scan(g)`
+<<<
+
+<img src="https://i.imgur.com/M6e3v8w.png" />
+
+---
+
+''"Why should I consider adopting RP?"''
+
+
+<<<
+Reactive Programming raises the level of abstraction of your code so you can focus on the interdependence of events that define the business logic, rather than having to constantly fiddle with a large amount of implementation details. Code in RP will likely be more concise.
+
+The benefit is more evident in modern webapps and mobile apps that are highly interactive with a multitude of UI events related to data events. 10 years ago, interaction with web pages was basically about submitting a long form to the backend and performing simple rendering to the frontend. Apps have evolved to be more real-time: modifying a single form field can automatically trigger a save to the backend, "likes" to some content can be reflected in real time to other connected users, and so forth.
+
+Apps nowadays have an abundancy of real-time events of every kind that enable a highly interactive experience to the user. We need tools for properly dealing with that, and Reactive Programming is an answer.
+<<<
+

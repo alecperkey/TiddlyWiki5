@@ -1,6 +1,6 @@
 created: 20180217041611165
-modified: 20180513192121282
+modified: 20200305022107635
 title: $:/config/GSD5Lists/visibility/$:/plugins/gsd5/core/ui/lists/contacts-list
 type: text/vnd.tiddlywiki
 
-show
+hide

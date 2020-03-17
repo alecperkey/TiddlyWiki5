@@ -1,0 +1,68 @@
+created: 20200316184101632
+modified: 20200317022657103
+tags: $:/tags/GSD5DashboardCore
+title: $:/aperk/core/ui/lists/directory-list
+type: text/vnd.tiddlywiki
+
+<div class="tw-menu-list-item" style="margin-block-start:0em !important; margin-block-end: 0em !important;">
+
+<$set name=rootDirectory value={{$:/currentRootDirectory}}>
+  <$linkcatcher set="$:/currentRootDirectory" setTo="Directory" >
+  
+<span class="tw-menu-list-item" style="padding: 0px !important;">
+''Directory/ ''
+</span>
+ </$linkcatcher>
+<$list filter="[field:route_parent[currentDirectory]]" >
+  <$linkcatcher set="$:/currentDirectory" setTo={{!!title}} to={{!!title}}>
+<span class="tw-menu-list-item" style="padding: 0px !important">
+      <$reveal state="$:/currentDirectory" type="match" text="{{!!title}}"></$reveal>
+      <$reveal state="$:/currentDirectory" type="nomatch" text="{{!!title}}">&nbsp;&nbsp;</$reveal>
+      <$link to={{!!title}}>{{!!title}}</$link>
+    </span>
+  </$linkcatcher>
+ </$list>
+</$set>
+<$set name=currentDirectory value={{$:/currentRootDirectory}}>
+<$list filter="[field:route_parent<currentDirectory>]" >
+   <$linkcatcher set="$:/currentDirectory" setTo={{!!title}} to="{{!!title}}">
+<span class="tw-menu-list-item">
+      <$reveal state="$:/currentDirectory" type="match" text={{!!title}}></$reveal>
+      <$reveal state="$:/currentDirectory" type="nomatch" text="{{!!title}}">&nbsp;&nbsp;</$reveal>
+      <$link to={{!!title}}>{{!!title}}</$link>
+    </span>
+  </$linkcatcher>
+</$list>
+</$set>
+<$set name=currentSubdirectory value={{$:/currentDirectory}}>
+<span class="tw-menu-list-item" style="padding: 0px !important;">
+
+''{{$:/currentDirectory}}''
+</span>
+<$list filter="[field:route_parent<currentSubdirectory>]">
+  <$linkcatcher set="$:/currentSubdirectoryList" setTo={{!!title}} to="{{!!title}}">
+  <div class="tw-menu-list-item">
+        <$reveal state="$:/currentSubdirectory" type="match" text={{!!title}}>&bull; </$reveal>
+        <$reveal state="$:/currentSubdirectory" type="nomatch" text={{!!title}}>&nbsp;&nbsp;</$reveal>
+        <$link to={{!!title}}>{{!!title}}</$link>
+    </div>
+  </$linkcatcher>
+</$list>
+
+<$set name=currentSubdirectory value={{$:/currentSubdirectoryList}}>
+
+<span class="tw-menu-list-item" style="padding: 0px !important;">
+
+''{{$:/currentSubdirectory}}''
+</span>
+
+<$list filter="[field:route_parent<currentSubdirectory>]">
+  <$linkcatcher set="$:/currentSubdirectoryList" setTo={{!!title}} to="{{!!title}}" >
+  <div class="tw-menu-list-item">
+        <$reveal state="$:/currentSubdirectoryList" type="match" text={{!!title}}>&bull;</$reveal>
+        <$reveal state="$:/currentSubdirectoryList" type="nomatch" text={{!!title}}<>&nbsp;&nbsp;</$reveal>
+        <$link to={{!!title}}>&nbsp;{{!!title}}</$link>
+    </div>
+  </$linkcatcher>
+</$list>
+</$set>

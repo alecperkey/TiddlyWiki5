@@ -1,0 +1,24 @@
+calendar_slot: 11
+created: 20200316121150110
+modified: 20200316125705328
+tags: calander-week-schedule
+title: Calendar.12
+type: text/vnd.tiddlywiki
+
+See [[Weekly Calendaring]]
+
+* ''Scheduled''
+** //after// [[Iterate.12]] //{{mr.solid.weekly.Iterations!!calendar_slot}}//
+** //after// [[Goal Reflect.12]] //{{mr.solid.weekly.Goal_Reflections!!calendar_slot}}//
+** ''Week: ''2020/{{!!calendar_slot}}
+*** replaces daily [[Solid Repeats]] for [[P1::6|mr.solid.daily.P1::6]] //Daily:Mon::Sat::9::12//
+* ''Plan Pomodoro's (P's)'' 
+** Have already [[Goal_Reflections|mr.solid.weekly.Goal_Reflections]] week prior
+** Allocate [[P1::12]] [[Pomodoro Estimations]] for Monday::Saturday
+*** Unfinished Actions from prior week
+*** Existing Actions from project backlogs
+*** New Actions from existing notes
+** Assume some P's interrupted/lost
+*''Update [[Micro Routines]] MR's''
+** with [[Weekly Iterations log|mr.solid.weekly.Iterations]] items
+

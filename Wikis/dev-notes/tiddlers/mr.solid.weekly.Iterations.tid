@@ -1,0 +1,18 @@
+calendar_slot: Weekly::Saturday::21::22
+created: 20200308214406584
+description:  [[Weekly Iterations log]] is one of [[Micro Routines]] for [[Time Managament Efforts]]
+modified: 20200316125206354
+source: [[mr.solid.weekly.Iterations]]
+title: mr.solid.weekly.Iterations
+tmi_type: mr
+type: text/vnd.tiddlywiki
+
+|Source:|{{!!source}}|
+|Description:|{{!!description}}|
+
+
+* ''Review project progress''
+** //Calendar Slot//: //{{!!calendar_slot}}//
+** Note unfinished Project Actions for rescheduling
+** Process important information from [[Iterations_Log]] for later Action drafting and revision (done in [[Weekly Calendaring]])
+** Process estimation accuracy for benchmarking

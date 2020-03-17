@@ -3,12 +3,12 @@ gsd_complete: false
 gsd_contact: aperk
 gsd_project: 
 gsd_realm: all
-gsd_status: active
+gsd_status: future
 gsd_type: project
-modified: 20190115175257350
+modified: 20200310234118210
 title: Meta
 type: text/vnd.tiddlywiki
 
-<<tag filter:"[tag[meta]]">>
+Tagged: <<tag filter:"[tag[meta]]">>
 
 <<list-links filter:"[tag[meta]]">>

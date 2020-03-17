@@ -1,0 +1,14 @@
+calendar_slot: daily:19::22~23
+created: 20200309044309954
+modified: 20200310041638707
+mr.solid.daily_next: [[mr.solid.daily.Bedtime]]
+tags: 
+title: mr.solid.daily.Freestyle
+tmi_type: {{!!title}}
+type: text/vnd.tiddlywiki
+
+# *Anything
+#* //(*) unless// non-daily requirement i.e. [[mr.solid.weekly]]
+# Reasonable--when possible
+# ''Possible P:Rewards!:'' up to 2x30m extensions for earlier P1::11 and/or P13::18.
+#* This leaves minimum 30m for next (Bedtime)

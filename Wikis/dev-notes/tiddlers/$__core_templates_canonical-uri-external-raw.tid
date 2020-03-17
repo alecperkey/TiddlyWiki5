@@ -1,0 +1,11 @@
+created: 20200316142029321
+modified: 20200316142048060
+title: $:/core/templates/canonical-uri-external-raw
+type: text/vnd.tiddlywiki
+
+<!--
+
+This template is used to assign the ''_canonical_uri'' field to external raw files that are stored in the same directory
+
+-->
+<$view field="title" format="doubleurlencoded"/>

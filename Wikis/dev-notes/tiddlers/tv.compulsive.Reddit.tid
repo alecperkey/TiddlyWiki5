@@ -1,0 +1,11 @@
+action: update [[Reading List]] with [[Goal Focused Reading]]
+created: 20200308100031093
+modified: 20200308100230788
+solved: no
+tags: mi.overflow
+title: tv.compulsive.Reddit
+tmi_type: tv.compulsive
+type: text/vnd.tiddlywiki
+
+|Action|{{!!action}}|
+|Solved|{{!!solved}}|

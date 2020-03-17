@@ -1,0 +1,7 @@
+created: 20200315200412391
+modified: 20200316173022002
+tags: $:/tags/ViewTemplate
+title: LocalLinkWidget
+type: text/vnd.tiddlywiki
+
+{{!!title}}

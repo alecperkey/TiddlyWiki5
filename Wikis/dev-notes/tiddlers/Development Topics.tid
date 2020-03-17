@@ -1,0 +1,18 @@
+created: 20200309151613804
+modified: 20200310021840216
+tags: ToC
+title: Development Topics
+type: text/vnd.tiddlywiki
+
+About: https://tiddlywiki.com/#Table-of-Contents%20Macros
+About: https://tiddlywiki.com/#tabs%20Macro%20(Examples)
+
+---
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="Topic"
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>

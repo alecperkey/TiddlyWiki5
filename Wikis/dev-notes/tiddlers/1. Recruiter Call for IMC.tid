@@ -1,0 +1,36 @@
+created: 20200309211038720
+modified: 20200311005316618
+tags: past-interviews
+title: 1. Recruiter Call for IMC
+type: text/vnd.tiddlywiki
+
+* ''Agenda:'' Recruiter First Call
+** ''Date/Time'': 3/10/2020 11am
+** ''Contact'': Recruiter John Harris
+** ''Interviewer'': Francisco Quintero (Front-End developer)
+** ''Phone #'': they call me
+** ''Location'': Florida
+** ''Topics'': see links below
+* ''Job Description''
+<<<
+
+* Responsibilities: 
+** UI design layouts, workflows, consistent platform for web development
+
+*Qualifications
+** JS frameworks: ''[[Vue]]'', Angular, Backbone, Ember, React
+** [[SaaS]]
+** [[responsive/mobile UI]]
+** [[cross-browser dev]]
+
+*IMPORTANT
+** [[Azure]] platform, [[DevOps]] best practices
+** [[Git]]
+** software engineering methodologies: [[SCRUM/Agile]]
+<<<
+---
+[[2.a. Preparing for Call with IMC]]
+
+Next interview:
+[[2.b Client Introduction with IMC]]
+

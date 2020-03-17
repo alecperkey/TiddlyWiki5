@@ -1,0 +1,12 @@
+created: 20200316191245744
+list: 
+modified: 20200317003609623
+route_parent: Today's Projects
+title: Project Dashboard
+type: text/vnd.tiddlywiki
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/active-project-list"/>
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/future-project-list"/>
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/completed-project-list"/>

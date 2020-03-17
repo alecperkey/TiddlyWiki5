@@ -1,0 +1,19 @@
+created: 20191015191039951
+modified: 20200310025241883
+tags: interview-Qs
+title: Questions for the Interviewer
+type: text/vnd.tiddlywiki
+
+''Questions for the Interviewer:''
+<<list-links filter:"[tag[questions-for-the-interviewer]]">>
+
+# [[What's the size & experience of team?]]
+# [[How are responsibilities split? For example is there a frontend and backend team, or is everyone fullstack. Dedicated UX, QA, Devops?]]
+# [[How common is working distributed/remote?]]
+# [[How is time allocated throughout the week?]]
+# [[What's your approach to project management / agile? Do teams have a scrummaster?]]
+# [[At what point in the hiring process would we discuss compensation? What benefits are offered?]]
+
+---
+
+See also: [[Interesting Questions]]

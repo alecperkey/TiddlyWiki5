@@ -1,0 +1,16 @@
+calendar_slot: daily:13::18
+created: 20200309042123619
+modified: 20200310041450993
+mr.solid.daily_next: [[mr.solid.daily.Dinner]]
+tags: 
+title: mr.solid.daily.P7::16
+tmi_type: {{!!title}}
+type: text/vnd.tiddlywiki
+
+# Close schedule
+# begin on first Action in its browser tab
+# at P12 (3:30pm) take [[P:Reward]] //#1//
+# finish estimated Actions
+# [[Free Time Projects]] Actions with extra time, till 18H (6pm)
+* //Reminder//
+** //If tempted to quickly check other websites, note in //[[Paper Journal]]// intentions __//for a later time://__//

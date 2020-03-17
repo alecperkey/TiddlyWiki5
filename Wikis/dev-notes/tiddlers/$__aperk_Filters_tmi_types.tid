@@ -1,0 +1,7 @@
+created: 20200308074141224
+filter: [!is[system]has[tmi_type]each[tmi_type]sort[tmi_type]] -[tmi_type[excluded_type]]
+modified: 20200308074441236
+tags: $:/tags/Filter
+title: $:/aperk/Filters/tmi_types
+type: text/vnd.tiddlywiki
+
