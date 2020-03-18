@@ -1,10 +1,35 @@
 created: 20200316184101632
-modified: 20200317174619567
+modified: 20200317211303880
 title: $:/aperk/core/ui/lists/directory-list
 type: text/vnd.tiddlywiki
 
-
   <style>
+  div.directoryContainer .directoryLevel {
+    padding-left: 0.5em;
+}
+
+.tw-menu-list.directoryLevel.currentRootDirectory {
+    padding: 0em 0em 0em 0em;
+    font-variant: petite-caps;
+    font-size: 16px;
+    /* font-weight: 200 !important; */
+    margin-left: -1em;
+    /* font-weight: 900 !important; */
+    /* cursor: none; */
+    /* line-height: normal; */
+}
+.activeDirectoryListItem {
+color: gray !important;
+}
+.tc-site-subtitle * {
+    cursor: none !important;
+}
+    span.directoryLevelParentLabel.hidden {
+      display: none;
+    }
+    div.rootDirectory.hidden {
+      display: none;
+    }
     div.directoryList span.directoryListItem {
       margin: 0em;
       padding: 0em;
@@ -14,7 +39,7 @@ type: text/vnd.tiddlywiki
       padding: 0em;
     }
     div.directoryContainer > div, div.directoryContainer div {
-      margin-block-start:0em !important; margin-block-end: 0em !important;
+      margin-block-start:0em; margin-block-end: 0em;
     }
   </style>
   
@@ -22,8 +47,8 @@ type: text/vnd.tiddlywiki
   <!-- https://github.com/wikilabs/plugins -->
 
   <div class="tw-menu-list directoryLevel currentRootDirectory">
-    <span class="directoryLevelParentLabel">//{{$:/currentRootDirectory}}//</span>
-    <div class="tw-menu-list directoryList currentRootDirectory rootDirectory hide">
+    <span class="directoryLevelParentLabel hidden">//{{$:/currentRootDirectory}}//</span>
+    <div class="tw-menu-list directoryList currentRootDirectory rootDirectory hidden">
       <!-- no route_parent, $:/currentRootDirectory expected route_type field of "root" -->
       <$set name=rootDirectory value="root">
         <$list filter="[field:route_type<rootDirectory>]">
@@ -41,20 +66,18 @@ type: text/vnd.tiddlywiki
 
     
     <div class="tw-menu-list directoryLevel currentDirectory">
-      <span class="directoryLevelParentLabel hide">//{{$:/currentRootDirectory}}//</span>
+      <span class="directoryLevelParentLabel hidden">//{{$:/currentRootDirectory}}//</span>
       <div class="tw-menu-list directoryList currentDirectoryLevel0">
         <$set name=currentRootDirectory value={{$:/currentRootDirectory}}>
           <$list filter="[field:route_parent<currentRootDirectory>]">
             <$linkcatcher set="$:/currentDirectory" setTo={{!!title}} to={{!!title}}>
-              <span class="tw-menu-list-item directoryListItem">
+              <div class="tw-menu-list-item directoryListItem">
                 <$reveal state="$:/currentDirectory" type="match" text={{!!title}}>~</$reveal>
-                <$link to={{!!title}}>
-                {{!!title}}
-                </$link>
-                <$reveal state="$:/currentDirectory" type="match" text={{!!title}}>~</$reveal>
-                <$reveal state="$:/currentDirectory" type="nomatch" text={{!!title}}>&nbsp;&nbsp;
-                </$reveal>
-              </span>
+                <$reveal state="$:/currentDirectory" type="nomatch" text={{!!title}}>&nbsp;</$reveal>
+                <span class="activeDirectoryListItem">
+                <$link to={{!!title}}>&nbsp;{{!!title}}</$link>
+                </span>
+              </div>
             </$linkcatcher>
           </$list>
         </$set>
@@ -64,7 +87,7 @@ type: text/vnd.tiddlywiki
   
     <!-- begin subdirectory nesting -->
   <div class="tw-menu-list directoryLevel currentSubdirectoryLevel1">
-    <span class="directoryLevelParentLabel hide">//{{$:/currentDirectory}}//</span>
+    <span class="directoryLevelParentLabel hidden">//{{$:/currentDirectory}}//</span>
     <div class="tw-menu-list directoryList">
       <$set name=currentDirectory value={{$:/currentDirectory}}>
         <$list filter="[field:route_parent<currentDirectory>]">
