@@ -3,9 +3,15 @@ gsd_complete: false
 gsd_contact: 
 gsd_project: Meta
 gsd_realm: all
+<<<<<<< HEAD
 gsd_status: future
 gsd_type: action
 modified: 20200305033708457
+=======
+gsd_status: waiting
+gsd_type: action
+modified: 20200317185658645
+>>>>>>> aperk
 title: rich service embeds
 type: text/vnd.tiddlywiki
 

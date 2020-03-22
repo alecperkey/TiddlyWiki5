@@ -1,0 +1,74 @@
+created: 20150128135817750
+creator: Tobias Beer
+filterfilter: [is[current]tags[]]
+filterfilterfield: [is[!system]prefix[mr.solid.daily]]
+modified: 20200322204333896
+modifier: Tobias Beer
+tags: ~~fs_type Contact
+title: $:/.tb/examples/from-field
+titlefilterfield: {{!!filterFilter}}
+type: text/vnd.tiddlywiki
+
+\define sorted() [$(filterFilterField)$sort[]]
+
+#''titleFilterField'':
+#* {{!!titleFilterField}}
+
+\define nestedSorted()[$(titleFilterField)$sort[]]
+
+
+<$set name=filterFilter value={{!!filterFilterField}}>
+</$set>
+
+---
+
+# ''filterFilterField''
+#*{{!!filterFilterField}}
+# ''filterFilter''
+#*{{!!filterFilter}}
+
+---
+Filter Filters: 
+<$select field="filterFilter">
+  <option value="[is[!system]prefix[mr.solid.daily]]">
+	mr.solid.daily**
+	</option>
+
+  <option 
+value="[is[current]tags[]]">
+	tags of current
+	</option>
+</$select>
+
+TitleFilters: 
+<$select field="titleFilterField">
+  <$list
+  <option value="[is[!system]prefix[mr.solid.daily]]">
+	mr.solid.daily**
+	</option>
+
+  <option 
+value="[is[current]tags[]]">
+	tags of current
+	</option>
+</$select>
+
+---
+
+<$set name=titleFilter value={{!!filterFilter}} >
+
+#''titlefilterfield'':
+#* {{!!titlefilterfield}}
+
+<$set name=titleFilterField value={{!!titleFilter}}>
+
+''Sorted List'':
+
+<$list filter=<<nestedSorted>> >
+  # {{!!title}}
+<$/list>
+
+</$set>
+</$set>
+
+

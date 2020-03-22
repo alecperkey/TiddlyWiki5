@@ -5,7 +5,11 @@ gsd_project: improve Time Management
 gsd_realm: all
 gsd_status: waiting
 gsd_type: action
+<<<<<<< HEAD
 modified: 20200308101059353
+=======
+modified: 20200317185424431
+>>>>>>> aperk
 title: improve Yak Shaving routines
 type: text/vnd.tiddlywiki
 

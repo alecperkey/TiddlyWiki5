@@ -1,0 +1,36 @@
+created: 20200318172909813
+filter: 
+filter-field: all[]sort[title]prefix[title]removeprefix[title]
+modified: 20200318192541993
+tags: pairing-demo EqualExperts interview react-native
+title: /EqualExperts/pairing-demo/
+type: text/vnd.tiddlywiki
+
+\define sorted() [$(filter)$sort[]]
+
+Select filter-field for generating the sorted list:
+<$select field="filter-field">
+<option value="all[]sort[title]prefix[/EqualExperts/]">`all[]sort[title]prefix[/EqualExperts/]`</option>
+<option value="all[]sort[title]prefix[title]removeprefix[title]">`all[]prefix[title]removeprefix[title]`</option>
+</$select>
+
+<$set name=filter value={{!!filter-field}}>
+You selected (in the field `field-filter`) the filter: <<filter>>
+<$list filter=<<sorted>>>
+
+* <$link><$view field=title/></$link><br>
+
+</$list>
+</$set>
+
+
+
+---
+```
+<$list filter="[all[]sort[title]prefix[/EqualExperts/pairing-demo/#]]" >
+
+!!! > <$link to={{!!title}}>{{!!title}}</$link> 
+**> <$transclude>
+
+</$list>
+```

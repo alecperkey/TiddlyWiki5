@@ -1,0 +1,31 @@
+created: 20200318153605369
+modified: 20200318172708547
+tags: 
+title: Demo/Story/simple react native app
+type: text/vnd.tiddlywiki
+
+Story
+Develop a simple app that allows customers to ''keep track of their money.''
+Acceptance Criteria
+
+* should be able to ''[[create an account]]'' with an ''initial deposit'' amount in £’s
+
+* should be able to [[create]] withdrawals from an account in £’s
+
+*should be able to view a [[list]] of withdrawals and the date / time they were created.
+Notes
+The exercise allows up to 90 minutes. Please don't feel
+
+---
+{{[interview]/[rn]/[EqualExperts]/1/[pairing-demo]/readme.md}}
+---
+
+[[plantuml tooltip="Is this a nice UI or what?" [
+@startsalt
+{
+  create an account:| "Add Bank Account  "
+  Password: | "****       "
+  [Ok    ]  | [  Close   ]
+}
+@endsalt]]]
+

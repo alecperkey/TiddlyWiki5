@@ -1,11 +1,17 @@
 created: 20200310052328210
+<<<<<<< HEAD
 modified: 20200317051819914
 route_parent: References
 tags: Directory
+=======
+modified: 20200317201319022
+route_parent: More Links
+>>>>>>> aperk
 title: Deprioritized!
 tmap.id: 439ee05a-62d2-44e2-ba32-7a3ae60c9268
 type: text/vnd.tiddlywiki
 
+<<<<<<< HEAD
 !!! __//[[Deprioritized!]]''`!`''//__
 
 # [[Iteration of Reflects]]//''`!`''//
@@ -13,3 +19,6 @@ type: text/vnd.tiddlywiki
 #* [[add New Log Entry button]]
 # [[Yak Shaving routines]]//''`!`''//
 #* [[tmiTemplateView]]//''`!`''//
+=======
+Deprioritized!
+>>>>>>> aperk

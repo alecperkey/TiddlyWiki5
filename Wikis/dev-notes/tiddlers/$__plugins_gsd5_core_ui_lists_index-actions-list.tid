@@ -1,0 +1,7 @@
+created: 20200317192500620
+modified: 20200317192657167
+tags: $:/tags/GSD5Lists
+title: $:/plugins/gsd5/core/ui/lists/index-actions-list
+type: text/vnd.tiddlywiki
+
+<<gsd5-list title:"Actions" gsd_type:"action" gsd_status:"next" gsd_complete:"false" realmAware:"true" sort:"title" order:"ascending" groupBy:{{$:/config/GSD5DashboardGroup}} customFilter:"none">>

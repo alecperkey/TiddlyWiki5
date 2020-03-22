@@ -3,9 +3,15 @@ gsd_complete: false
 gsd_contact: 
 gsd_project: improve Time Management
 gsd_realm: all
+<<<<<<< HEAD
 gsd_status: next
 gsd_type: action
 modified: 20200317051426677
+=======
+gsd_status: waiting
+gsd_type: action
+modified: 20200317184622345
+>>>>>>> aperk
 title: refine mr.Reflects
 type: text/vnd.tiddlywiki
 

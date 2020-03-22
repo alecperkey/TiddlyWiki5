@@ -1,0 +1,138 @@
+created: 20200316184101632
+draft.of: $:/aperk/core/ui/lists/directory-list
+draft.title: $:/aperk/core/ui/lists/directory-list
+modified: 20200317201409543
+title: Draft of '$:/aperk/core/ui/lists/directory-list'
+type: text/vnd.tiddlywiki
+
+  <style>
+    div.directoryList span.directoryListItem {
+      margin: 0em;
+      padding: 0em;
+    }
+    div.directoryList div.directoryListItem {
+      margin: 0em;
+      padding: 0em;
+    }
+    div.directoryContainer > div, div.directoryContainer div {
+      margin-block-start:0em !important; margin-block-end: 0em !important;
+    }
+  </style>
+  
+<div class="tw-menu-list directoryLevel directoryContainer">
+  <!-- https://github.com/wikilabs/plugins -->
+
+  <div class="tw-menu-list directoryLevel currentRootDirectory">
+    <span class="directoryLevelParentLabel">//{{$:/currentRootDirectory}}//</span>
+    <div class="tw-menu-list directoryList currentRootDirectory rootDirectory hide">
+      <!-- no route_parent, $:/currentRootDirectory expected route_type field of "root" -->
+      <$set name=rootDirectory value="root">
+        <$list filter="[field:route_type<rootDirectory>]">
+          <$linkcatcher set="$:/currentRootDirectory" setTo={{!!title}}>
+            <span class="tw-menu-list-item directoryListItem directoryRootItem">
+              <$reveal state="$:/currentRootDirectory" type="match" text={{!!title}}></$reveal>
+              <$reveal state="$:/currentRootDirectory" type="nomatch" text={{!!title}}>
+              </$reveal>
+              //{{!!title}}//&nbsp;&nbsp;
+            </span>
+          </$linkcatcher>
+        </$list>
+      </$set>
+    </div>
+
+    
+    <div class="tw-menu-list directoryLevel currentDirectory">
+      <span class="directoryLevelParentLabel hide">//{{$:/currentRootDirectory}}//</span>
+      <div class="tw-menu-list directoryList currentDirectoryLevel0">
+        <$set name=currentRootDirectory value={{$:/currentRootDirectory}}>
+          <$list filter="[field:route_parent<currentRootDirectory>]">
+            <$linkcatcher set="$:/currentDirectory" setTo={{!!title}} to={{!!title}}>
+              <span class="tw-menu-list-item directoryListItem">
+                <$reveal state="$:/currentDirectory" type="match" text={{!!title}}>~</$reveal>
+                <$link to={{!!title}}>
+                {{!!title}}
+                </$link>
+                <$reveal state="$:/currentDirectory" type="match" text={{!!title}}>~</$reveal>
+                <$reveal state="$:/currentDirectory" type="nomatch" text={{!!title}}>&nbsp;&nbsp;
+                </$reveal>
+              </span>
+            </$linkcatcher>
+          </$list>
+        </$set>
+      </div>
+    </div>
+  </div>
+  
+    <!-- begin subdirectory nesting -->
+  <div class="tw-menu-list directoryLevel currentSubdirectoryLevel1">
+    <span class="directoryLevelParentLabel hide">//{{$:/currentDirectory}}//</span>
+    <div class="tw-menu-list directoryList">
+      <$set name=currentDirectory value={{$:/currentDirectory}}>
+        <$list filter="[field:route_parent<currentDirectory>]">
+          <$linkcatcher set="$:/currentSubdirectory" setTo={{!!title}} to={{!!title}}>
+            <div class="tw-menu-list-item directoryListItem">
+              <$reveal state="$:/currentSubdirectory" type="match" text={{!!title}}>
+                &bull;
+              </$reveal>
+              <$reveal state="$:/currentSubdirectory" type="nomatch" text={{!!title}}>
+                &nbsp;
+              </$reveal>
+              <$link to={{!!title}}>
+                &nbsp;{{!!title}}
+              </$link>
+            </div>
+          </$linkcatcher>
+        </$list>
+      </$set>
+    </div>
+    
+    <div class="tw-menu-list directoryLevel currentSubdirectoryLevel2">
+      <span class="directoryLevelParentLabel">//{{$:/currentSubdirectory}}//</span>
+      <div class="tw-menu-list directoryList">
+        <$set name=currentSubdirectory value={{$:/currentSubdirectory}}>
+          <$list filter="[field:route_parent<currentSubdirectory>]">
+            <$linkcatcher set="$:/currentSubdirectoryList" setTo={{!!title}} to={{!!title}}>
+              <div class="tw-menu-list-item directoryListItem">
+                <$reveal state="$:/currentSubdirectoryList" type="match" text={{!!title}}>
+                  &bull; 
+                </$reveal>
+                <$reveal state="$:/currentSubdirectoryList" type="nomatch" text={{!!title}}>
+                  &nbsp;
+                </$reveal>
+                <$link to={{!!title}}>
+                  &nbsp;{{!!title}}
+                </$link>
+              </div>
+            </$linkcatcher>
+          </$list>
+        </$set>
+      </div>
+
+      <div class="tw-menu-list directoryLevel currentSubdirectoryLevel3">
+        <span class="directoryLevelParentLabel">//{{$:/currentSubdirectoryList}}//</span>
+        <div class="tw-menu-list directoryList">
+          <$set name=currentSubdirectoryList value={{$:/currentSubdirectoryList}}>
+            <$list filter="[field:route_parent<currentSubdirectoryList>]">
+              <$linkcatcher set="$:/currentSubdirectoryListItem" setTo={{!!title}} to={{!!title}}>
+                <div class="tw-menu-list-item directoryListItem">
+                  <$set name=currentSubdirectoryListItem value={{$:/currentSubdirectoryListItem}}>
+                  <$reveal state="$:/currentSubdirectoryListItem" type="match" text={{!!title}}>
+                    &nbsp;&bull;
+                  </$reveal>
+                  <$reveal state="$:/currentSubdirectoryListItem" type="nomatch" text={{!!title}}>
+                    &nbsp;&nbsp;
+                  </$reveal>
+                  <$list-links filter="[field:route_parent<currentSubdirectoryListItem>]>
+                    &nbsp;&bull;{{!!title}}
+                  </$link>
+                </div>
+              </$linkcatcher>
+            </$list>
+          </$set>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>

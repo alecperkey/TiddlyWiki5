@@ -1,11 +1,19 @@
 created: 20200305051331884
 gsd_complete: false
 gsd_contact: 
+<<<<<<< HEAD
 gsd_project: Exploration of TiddlyWiki tooling
 gsd_realm: all
 gsd_status: future
 gsd_type: action
 modified: 20200305051333071
+=======
+gsd_project: Meta
+gsd_realm: all
+gsd_status: future
+gsd_type: action
+modified: 20200317191501707
+>>>>>>> aperk
 title: figure out problem with items tagged TAG snippet in Snippets
 type: text/vnd.tiddlywiki
 

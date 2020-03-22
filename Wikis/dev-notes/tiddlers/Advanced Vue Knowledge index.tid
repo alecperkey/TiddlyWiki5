@@ -1,6 +1,10 @@
 created: 20200310032553577
 list: 5
+<<<<<<< HEAD
 modified: 20200317004048571
+=======
+modified: 20200317071055991
+>>>>>>> aperk
 route_parent: Today's Projects
 route_type: [[1. Vue Guide]]
 tags: Vue-Guide ToReference Vue

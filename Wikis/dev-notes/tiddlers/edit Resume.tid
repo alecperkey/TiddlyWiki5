@@ -3,9 +3,15 @@ gsd_complete: false
 gsd_contact: 
 gsd_project: deploy Portfolio
 gsd_realm: all
+<<<<<<< HEAD
 gsd_status: waiting
 gsd_type: action
 modified: 20200310144424822
+=======
+gsd_status: future
+gsd_type: action
+modified: 20200317184258054
+>>>>>>> aperk
 title: edit Resume
 type: text/vnd.tiddlywiki
 

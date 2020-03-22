@@ -3,9 +3,15 @@ gsd_complete: false
 gsd_contact: 
 gsd_project: improve Time Management
 gsd_realm: all
+<<<<<<< HEAD
 gsd_status: waiting
 gsd_type: action
 modified: 20200310044813426
+=======
+gsd_status: future
+gsd_type: action
+modified: 20200317185407688
+>>>>>>> aperk
 title: modify tiddler showeditpane state to yes upon editing tiddler (so it is yes by default)
 type: text/vnd.tiddlywiki
 

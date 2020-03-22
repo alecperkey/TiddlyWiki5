@@ -1,11 +1,19 @@
 created: 20200305032615079
 gsd_complete: false
 gsd_contact: 
+<<<<<<< HEAD
 gsd_project: UX Improvements
 gsd_realm: all
 gsd_status: future
 gsd_type: action
 modified: 20200305035454207
+=======
+gsd_project: list Yak Shaving ideas for later
+gsd_realm: all
+gsd_status: future
+gsd_type: action
+modified: 20200317191701110
+>>>>>>> aperk
 title: automate linking of created Action to non-GSD card
 type: text/vnd.tiddlywiki
 

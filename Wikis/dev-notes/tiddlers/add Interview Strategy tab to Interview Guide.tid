@@ -1,11 +1,19 @@
 created: 20200310044311502
 gsd_complete: false
 gsd_contact: 
+<<<<<<< HEAD
 gsd_project: publish Interview Guide
 gsd_realm: all
 gsd_status: waiting
 gsd_type: action
 modified: 20200317021710189
+=======
+gsd_project: setup /Dev/Blog
+gsd_realm: all
+gsd_status: future
+gsd_type: action
+modified: 20200317191005320
+>>>>>>> aperk
 title: add Interview Strategy tab to Interview Guide
 type: text/vnd.tiddlywiki
 

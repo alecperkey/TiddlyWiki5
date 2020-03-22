@@ -5,7 +5,12 @@ gsd_project:
 gsd_realm: all
 gsd_status: active
 gsd_type: project
+<<<<<<< HEAD
 modified: 20200305050513865
+=======
+modified: 20200317180424224
+tags: Index
+>>>>>>> aperk
 title: deploy Portfolio
 type: text/vnd.tiddlywiki
 
