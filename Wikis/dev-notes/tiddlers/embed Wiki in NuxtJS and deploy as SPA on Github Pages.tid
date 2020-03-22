@@ -1,23 +1,13 @@
 created: 20200317023920415
-<<<<<<< HEAD
-=======
 gsd_action: 
->>>>>>> aperk
 gsd_complete: false
 gsd_contact: 
 gsd_project: deploy Portfolio
 gsd_realm: all
-<<<<<<< HEAD
 gsd_status: next
 gsd_type: action
-modified: 20200317023921613
-=======
-gsd_status: waiting
-gsd_type: action
 list-after: [[touch up Wiki for presentableness]]
-modified: 20200317184255589
+modified: 20200322215315306
 tags: ReactiWiki
->>>>>>> aperk
 title: embed Wiki in NuxtJS and deploy as SPA on Github Pages
 type: text/vnd.tiddlywiki
-

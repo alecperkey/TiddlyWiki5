@@ -1,14 +1,6 @@
 created: 20200316182016588
-<<<<<<< HEAD
-modified: 20200316182024289
+modified: 20200322215115351
 title: $:/language/DefaultNewTiddlerTitle
 type: text/vnd.tiddlywiki
 
-__New__
-=======
-modified: 20200317175905185
-title: $:/language/DefaultNewTiddlerTitle
-type: text/vnd.tiddlywiki
-
-New Tiddler
->>>>>>> aperk
+New

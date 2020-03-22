@@ -1,21 +1,74 @@
 created: 20200318172909813
 filter: 
-filter-field: all[]sort[title]prefix[title]removeprefix[title]
-modified: 20200318192541993
+filter-field: all[]sort[title]prefix[/EqualExperts/]
+modified: 20200322220759808
 tags: pairing-demo EqualExperts interview react-native
 title: /EqualExperts/pairing-demo/
 type: text/vnd.tiddlywiki
 
 \define sorted() [$(filter)$sort[]]
 
+`<$set name=currentPathSuffix value=is[current]removeprefix[{{!!title}}]>
+:: Current path: ''<<currentPathSuffix>>''
+`
+
+!!''=''
+
+`:: Current path: is[current]removeprefix[Draft of '/EqualExperts/pairing-demo/']`
+
+---
+
+<$set name=one value={{{[all[]removeprefix[Draft of ']removesuffix[']]}}} >
+
+
+<$set name=two value={{{ [each[<<one>>]get[title]] }}} >
+
+2 <<two>>
+
+1 <<one>>
+
+list: 
+
+<$list filter=<<one>>
+   > 
+		<$link>
+		
+		<$view field=title /> 
+		
+		</$link> <br>
+  
+	</$list>
+
+
+</$set>
+</$set>
+---
+
+
+
+<$set name=currentPathSuffix value=is[current]removeprefix[{{!!title}}]>
+
+Current path: 
+* ''<<currentPathSuffix>>''
+
+---
+<$list filter="[removesuffix[<<currentPathSuffix>>]"
+    <$link><$view field=title /></$link><br>
+  </$list>
+<$/set>
+
 Select filter-field for generating the sorted list:
 <$select field="filter-field">
-<option value="all[]sort[title]prefix[/EqualExperts/]">`all[]sort[title]prefix[/EqualExperts/]`</option>
-<option value="all[]sort[title]prefix[title]removeprefix[title]">`all[]prefix[title]removeprefix[title]`</option>
+<$set name=temp value={{!!title}}>
+<option value="all[]sort[title]prefix[/EqualExperts/]">`**[title]prefix[/EqualExperts/]`</option>
+<option value="all[]sort[]removeprefix[title]">
+`**[t]s[t]rm-prfx[t]`</option>
+<$/set>
 </$select>
 
 <$set name=filter value={{!!filter-field}}>
-You selected (in the field `field-filter`) the filter: <<filter>>
+You selected (in the field `field-filter`) the filter: ''<<filter>>''
+
 <$list filter=<<sorted>>>
 
 * <$link><$view field=title/></$link><br>
