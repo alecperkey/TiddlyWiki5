@@ -1,42 +1,28 @@
 created: 20200317175618382
-modified: 20200317200731930
+modified: 20200323194340474
 mytag: <<list-links filter:"[tag[Index]!is[system]]">>
 title: Index
 type: text/vnd.tiddlywiki
 
-<<list-links filter:"[tag[Index]!is[system]]">>
+\define TranscludeTiddler()
 
-\define 
-TranscludeTiddler()
-<div style="margin: 0.5em; background: #eee; border:1px solid #aaa">
-  <$set 
-  name="currentT" 
-  value={{{ [is[current]field:{host}] }}}>
-  
-  <$macrocall 
-  $name="ExtContent"
-  href={{{ [<__host__>addsuffix<__ext__>] }}} 
-  currentT=<<currentT>> />
-</$set>
+<div style="margin: 0.25em; background: #eee; border:1px solid #aaa">
+    <$transclude tiddler=<<currentField>> />  
+---//
+<<currentField>>
+---//
 </div>
 \end
 
----#############
-
-<$list filter="[tag[Index]!is[system]]">
-
-<$set 
-  name="currentField" 
-  value={{{ [is[current]field:{title}] }}}>
+<$list filter="[tag[Index]is[system]]" >
+  <$set 
+    name="currentField" 
+    value={{{ [is[current]field:{title}] }}}>
   
-<$macrocall $name="TranscludeTiddler" 
-{{!!title}}
-
+    <$macrocall $name="TranscludeTiddler" 
+      tiddler=<<currentField>> />
+  </$set>
 </$list>
 
+
 ---
-<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/active-project-list"/>
-
-<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/future-project-list"/>
-
-<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/completed-project-list"/>

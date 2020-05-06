@@ -1,5 +1,5 @@
 created: 20150822152602396
-modified: 20200322234943187
+modified: 20200323000737423
 tags: $:/tags/Stylesheet
 title: Alec stylee
 tmap.id: 81433041-9bc5-490f-a05c-78bb0f318010
@@ -89,11 +89,11 @@ html button {
 
 .tc-message-box { margin: 21px -21px 21px -21px; }
 
-.tc-sidebar-scrollable { position: fixed; top: 0px; left: 1000px; bottom: 0; right: 0; overflow-y: auto; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 0 0 0px; padding: 71px 0 28px 23px; }
+.tc-sidebar-scrollable { position: fixed; top: 0px; left: 1000px; bottom: 0; right: 0; overflow-y: auto; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 0 0 0px; padding: 13px 0 13px 23px; }
 
 html[dir="rtl"] .tc-sidebar-scrollable { left: auto; right: 1000px; }
 
-.tc-story-river { position: relative; left: 0px; top: 0px; width: auto; padding: 23px 23px 23px 23px; }
+.tc-story-river { position: relative; left: 0px; top: 0px; width: auto; padding: 23px 23px 23px 13px; }
 
 }
 
