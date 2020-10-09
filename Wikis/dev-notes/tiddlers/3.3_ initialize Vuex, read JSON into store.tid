@@ -1,0 +1,30 @@
+created: 20200311100937148
+list: 1
+modified: 20200311125411621
+tags: @vue/cli Vue IMC.Demo
+title: 3.3: initialize Vuex, read JSON into store
+type: text/vnd.tiddlywiki
+
+''Let's use Vuex's example boilerplate, as its written by Evan You himself.''
+
+* https://github.com/vuejs/vuex#examples
+
+* we can just read the test.json into Vuex and maybe even cache it to localStorage
+
+* Then we'll ''write some actions'' to call an async fn to gather needed images upon each Product Detail page the user visits
+
+something like 
+
+```javascript
+// mock-data.json
+async getResizedThumbnail(root.products[$id].photoname, thumbnailOptions)
+
+// resize api: http://imageresizing.net/docs/basics
+async getResizedThumbnail(root.products[$id].photoname, thumbnailOptions)
+ 
+// Company Logo API http://images.repzio.com/productimages/${ManufacturerID}/logo${ManufacturerID}_lg.jpg
+
+async getLogoImage(manufacturerID)
+```
+
+

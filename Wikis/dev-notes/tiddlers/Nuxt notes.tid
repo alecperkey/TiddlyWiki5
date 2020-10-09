@@ -1,0 +1,53 @@
+created: 20200303072701023
+modified: 20200303075347111
+tags: 
+title: Nuxt notes
+type: text/vnd.tiddlywiki
+
+Tools
+
+* Eslint, Prettier, Stylint?
+* Pre Commit Hooks: Husky
+** `"pre-commit": "cross-env PRE_COMMIT=true lint-staged"`
+* Pull Request per feature, 1+ review per PR
+* Testing: cypress, vue testing library
+* Documentation: VuePress
+* CLI Generators: Hygen for Vue components, unit tests. Prevents inconsistencies in naming files, etc
+* Styles: tailwind, utilities>monolithic css/bootstrap, utilities classes
+* Nuxt PWA (progressive web app)
+** Registers a service worker for offline caching
+** generates `manifest.json` file
+** adds SEO friendly meta data
+** generates different size app icons
+**''Steps'': `yarn add @nuxtjs/pwa`, `modules: ['@nuxtjs/pwa']`, upload image to static folder
+* Static Sites
+** faster, dynamic, hydration, SEO benefits
+** compiled and served as static SPA, no server needed
+** `nuxt generate` does it
+* Full Static Module (static data)
+** calls api once at build
+** calls payload instead of the api on Navigation
+** works offline
+* Static Site + SPA
+** use exclude option in generate option to specify non-static, instead it will be dynamic SPA
+* Pages Folder
+** no router.js file needed
+** Dynamic Pages
+*** Nuxt Crawler uses `<nuxt-link>` tags and auto generates those as dynamic pages at build time
+* Performance Tests: webpack analyzer, audit in chrome devtools, check CSS with CSS stats
+* `yarn build -a` visualizes 2d tree of file size
+* Nuxt gives code splitting by routes for free
+** <img src="https://i.imgur.com/JJU52bX.png"/>
+* Lazy Load translations, images, use CDN for images
+** <img src="https://i.imgur.com/O6qFZvZ.png"/>
+* Accessibility
+** labels for forms, aria tags, color contrast, Chrome dev tools for accessibility
+* Modern mode
+** two versions of app: Modern=ES module support, Legacy:older browsers do not
+*** `nuxt generate --modern`
+* Typescript
+** available for Nuxt
+* Aim for 100% on chrome analysis score
+
+
+https://www.youtube.com/watch?v=FBEOIuDUZh4

@@ -1,0 +1,12 @@
+created: 20200308040618598
+modified: 20200308070829865
+tags: 
+title: tmiTemplateHtml
+type: text/vnd.tiddlywiki
+
+<div>
+
+|aperk-article-meta-table-template tc-message-box|k
+|ACTION | {{!!action}}|
+|SOLVED | {{!!solved}}|
+</div>

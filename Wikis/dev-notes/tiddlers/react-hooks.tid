@@ -1,8 +1,8 @@
 articles: {{{[tag[Article]tag[React-Hooks]]||$:/core/ui/TagTemplate}}}
 created: 20181207204342206
 list: 
-modified: 20181212204622472
-tags: React-Hooks Code-Reuse WIP Code-Quality Topic
+modified: 20200310023353345
+tags: Reusability React-Hooks WIP Topic
 title: React-Hooks
 type: text/vnd.tiddlywiki
 

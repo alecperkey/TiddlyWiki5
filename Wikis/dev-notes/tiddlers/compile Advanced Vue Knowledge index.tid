@@ -1,0 +1,23 @@
+created: 20200305065533819
+<<<<<<< HEAD
+gsd_complete: false
+gsd_contact: 
+gsd_project: 
+gsd_realm: all
+gsd_status: active
+gsd_type: project
+modified: 20200307053207437
+=======
+gsd_comp_date: 20200317191403364
+gsd_complete: true
+gsd_contact: 
+gsd_project: setup /Dev/Topics
+gsd_realm: all
+gsd_status: future
+gsd_type: project
+modified: 20200317191414282
+>>>>>>> aperk
+title: compile Advanced Vue Knowledge index
+type: text/vnd.tiddlywiki
+
+[[Advanced Vue Knowledge index]]

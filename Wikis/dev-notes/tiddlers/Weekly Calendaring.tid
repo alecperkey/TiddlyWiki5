@@ -1,0 +1,15 @@
+about: A [[Micro Routine]] for allocationg [[Pomodoro Items]] for the upcoming week. See: [[Iterations Log]] items
+calendar_slot: Weekly:Sunday:10::12
+created: 20200308215012859
+description: A [[Micro Routine]] for allocationg [[Pomodoro Items]] for the upcoming week. See: [[Iterations Log]] items
+modified: 20200317042144658
+source: [[mr.solid.weekly.Calendaring]]
+tags: 
+title: Weekly Calendaring
+tmi_type: mr
+type: text/vnd.tiddlywiki
+
+|source|{{!!source}}|
+|description|{{!!description}}|
+
+{{mr.solid.weekly.Calendaring}}

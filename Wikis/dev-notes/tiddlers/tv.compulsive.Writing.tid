@@ -1,0 +1,18 @@
+action: reliably enforce breaks
+created: 20200307092810452
+example: 3/7/2020 [[Pomodoro Reflection log 3/7/2020 2-3, 4-8]]
+modified: 20200308103149885
+solved: no
+tags: tv.compulsive
+title: tv.compulsive.Writing
+tmi.action: reliably enforce breaks
+tmi_type: tv.compulsive
+type: text/vnd.tiddlywiki
+
+3/7/2020 [[Pomodoro Reflection log 3/7/2020 2-3, 4-8]]
+
+reliably enforce breaks
+
+{{!!solved}}
+
+{{{ tv.compulsive.writing!!tmi.action }}}

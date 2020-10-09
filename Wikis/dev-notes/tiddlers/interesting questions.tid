@@ -1,0 +1,15 @@
+created: 20200305061856133
+list: 
+modified: 20200317051444345
+tags: [[Pomodoros template]]
+title: Interesting Questions
+type: text/vnd.tiddlywiki
+
+Tagged: <<tag filter:"[tag[REPLACE]]">>
+
+<<list-links filter:"[tag[REPLACE]]">>
+
+* [[what do you read?]]
+* [[what would an ideal project look like?]]
+* [[what fuels your curiosity?]]
+* [[who are some of your favorite thinkers?]]

@@ -1,0 +1,30 @@
+created: 20200310055305661
+modified: 20200311000320334
+tags: Vue [[Francisco Quintero]] [[IMC Interview]]
+title: 2.b Client Introduction with IMC
+type: text/vnd.tiddlywiki
+
+!!! Notes from  this call with [[Francisco Quintero]] :
+
+<<<
+* IMC use 
+** >>> [[Typescript]]
+** >>> [[Class-based single file components]] with
+*** [[Vue mixins]]
+***[[Vue decorators]], etc
+** [[Vuex]]
+** .NET
+* Legacy technologies: 
+** MVC.NET, VanillaJS, Jquery
+* 5 Web Apps, 1 Mobile Xamarin app
+** 3 are legacy
+***to be converted from legacy to Vue
+** 2 in Vue
+** 1 upcoming Vue app 
+* //"I use Nuxt on my own projects, but not at IMC"//
+<<<
+
+---
+Previous: [[2.a. Preparing for Call with IMC]]
+
+Next: [[3. IMC Interview Demo Vue SPA]]

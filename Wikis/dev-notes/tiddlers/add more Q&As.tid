@@ -1,0 +1,18 @@
+created: 20200310034122496
+gsd_complete: false
+gsd_contact: 
+gsd_project: publish Interview Guide
+gsd_realm: all
+<<<<<<< HEAD
+gsd_status: waiting
+gsd_type: action
+modified: 20200310034317973
+=======
+gsd_status: future
+gsd_type: action
+modified: 20200317185317564
+>>>>>>> aperk
+title: add more Q&As
+type: text/vnd.tiddlywiki
+
+[[interview-Qs]]

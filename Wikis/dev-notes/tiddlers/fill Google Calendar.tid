@@ -1,0 +1,21 @@
+created: 20200305220123349
+<<<<<<< HEAD
+gsd_complete: false
+=======
+gsd_comp_date: 20200317190516056
+gsd_complete: true
+>>>>>>> aperk
+gsd_contact: 
+gsd_project: 
+gsd_realm: all
+gsd_status: future
+gsd_type: project
+<<<<<<< HEAD
+modified: 20200317025747896
+=======
+modified: 20200317190517208
+>>>>>>> aperk
+title: fill Google Calendar
+type: text/vnd.tiddlywiki
+
+{{Flow Stops}}

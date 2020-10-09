@@ -1,0 +1,11 @@
+action: schedule cleanup for [[quarterly Yak Shaving]]
+created: 20200307193935118
+modified: 20200308100458884
+solved: no
+tags: mi.overflow
+title: mi.overflow.Email_Inbox
+tmi_type: overflow
+type: text/vnd.tiddlywiki
+
+|Action|{{!!action}}|
+|Solved|{{!!solved}}||

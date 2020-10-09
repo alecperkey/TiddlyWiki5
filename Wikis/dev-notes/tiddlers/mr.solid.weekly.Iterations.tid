@@ -1,0 +1,21 @@
+calendar_slot: Weekly::Saturday::21::22
+created: 20200308214406584
+description:  [[Iterations]] is one of [[Micro Routines]] for [[Time Managament Efforts]]
+modified: 20200317052131400
+source: [[mr.solid.weekly.Iterations]]
+title: mr.solid.weekly.Iterations
+tmi_type: mr
+type: text/vnd.tiddlywiki
+
+|Source:|{{!!source}}|
+|Description:|{{!!description}}|
+
+
+* ''Review project progress''
+** //Calendar Slot//: //{{!!calendar_slot}}//
+
+** Compile daily [[Reflects]] & [[Pomodoros]] notable thoughts
+*** into a simple [[Iterations]] 
+*** ? `list-links` of `Week.N.Blockers` throughout the week
+**//all analysis to be done in// [[Goal Reflects]]
+** Process estimation accuracy for benchmarking

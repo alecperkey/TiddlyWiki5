@@ -1,0 +1,10 @@
+created: 20200311092928934
+list: 
+modified: 20200311094113393
+tags: [[Official Vue Docs]] [[Vue Components]] [[Code Quality]] Vue ToReference
+title: Vue Component Code Structure
+type: text/vnd.tiddlywiki
+
+ElevateBart: approches to extensions of a component (mixins + extends)
+
+Zel: @Sickwit ...Challenges with Typescript in Vue Ecosystem: the only challenge I really had was deciding which api to use in the end. I would def look into all 3 uses of typescript with vue, class / composition / option api and decide which one is best for you in the long run. I learned class api but it caused headaches with decorators and nuxt and eventually I got converted to composition api

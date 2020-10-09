@@ -1,0 +1,20 @@
+created: 20200307053327747
+gsd_complete: false
+gsd_contact: 
+<<<<<<< HEAD
+gsd_project: compile Advanced Vue Knowledge index
+gsd_realm: all
+gsd_status: next
+gsd_type: action
+modified: 20200317023635419
+=======
+gsd_project: create Prior Work table
+gsd_realm: all
+gsd_status: waiting
+gsd_type: action
+modified: 20200317185511806
+>>>>>>> aperk
+title: outline Experiences with Nuxt.js
+type: text/vnd.tiddlywiki
+
+[[Nuxt.js]]

@@ -1,0 +1,12 @@
+caption: Actions
+created: 20200317021909791
+modified: 20200317022159965
+tags: $:/tags/SideBar
+title: $:/plugins/gsd5/core/ui/sidebar/actions-sidebar
+type: text/vnd.tiddlywiki
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/next-action-list"/>
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/waiting-action-list"/>
+
+<$transclude tiddler="$:/plugins/gsd5/core/ui/lists/future-action-list"/>

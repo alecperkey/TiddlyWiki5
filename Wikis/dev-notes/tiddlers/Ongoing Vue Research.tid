@@ -1,0 +1,76 @@
+created: 20200310031431591
+list: 
+modified: 20200311094143097
+tags: [[Official Vue Docs]] ToReference Vue
+title: Ongoing Vue Research
+type: text/vnd.tiddlywiki
+
+!! //Moved completed items to //[[Advanced Vue Knowledge index]]
+---
+
+!![[Official Vue Documentation index]]
+
+* [[Vue vs React Cheat Sheet]]
+** from intro video on .xyz
+* `Outline sections of docs`
+
+---
+
+!!Topics for [[Advanced Vue Knowledge index]] 
+
+*[[VueApollo]]
+*[[Vue Composition API]]
+*[[Apollo GraphQL generators]]
+*[[Vue Scaffold Generator]]
+
+---
+
+!! Priority Sources for Advanced Knowledge
+
+!!! To Consider:
+
+# ~~Official docs~~ `Current Priority`
+# Developer blogs
+# StackOverflow
+# LinkedIn/resumes
+# YouTube
+# Reddit
+
+---
+!! Comparison Vue vs React Ecosystem Candidates
+
+#[[Vue Component Styling]]` vs React / with SaSS`
+#[[Vue Router vs React-Router]]
+#[[Vue Mixins & Extends]]
+#[[Vue Forms vs Formik]]
+#[[Vue Component Code Structure]]
+#* //somewhat done`*`//
+#[[Vuex vs Redux]]
+#[[Vue Composition API vs React Hooks]]
+#* `ref official RFC from Vue`
+# [[Typescript in Vue vs React]]
+#* See below Discord comment
+
+<<<
+//`*`in// [[Vue vs React Cheat Sheet]]
+<<<
+
+
+---
+
+!! Discord Advice
+
+<<<
+''ElevateBart:'' approches to extensions of a component (mixins + extends)
+
+<<<
+
+
+<<<
+Zel: @Sickwit ...[[Challenges with Typescript in Vue Ecosystem]]: the only challenge I really had was deciding which api to use in the end. I would def look into all 3 uses of typescript with vue, class / composition / option api and decide which one is best for you in the long run. I learned class api but it caused headaches with decorators and nuxt and eventually I got converted to composition api
+
+<<<
+
+---
+
+!!! //Waiting//: Write & find sources of expert opinion about Vue and add to: [[Open Source Reviews table]]

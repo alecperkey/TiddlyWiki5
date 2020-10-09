@@ -1,0 +1,12 @@
+created: 20200310234102759
+modified: 20200311005320567
+title: Ideal Developer
+type: text/vnd.tiddlywiki
+
+Topics tagged {{!!title}}<<list-links filter:'[tag[Ideal Developer]tag[Topic]]'>>
+
+---
+Articles tagged {{!!title}}: <<list-links filter:'[tag[Ideal Developer]tag[Article]]' >>
+
+---
+References tagged {{!!title}}<<list-links filter:'[tag[Ideal Developer]tag[ToReference]]' >>

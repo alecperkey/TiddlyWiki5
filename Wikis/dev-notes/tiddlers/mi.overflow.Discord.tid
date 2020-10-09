@@ -1,0 +1,11 @@
+action: reduce discord notifications
+created: 20200308095325741
+modified: 20200308095435492
+solved: no
+tags: mi.overflow
+title: mi.overflow.Discord
+tmi_type: overflow
+type: text/vnd.tiddlywiki
+
+|Action|{{!!action}}|
+|Solved|{{!!solved}}|

@@ -1,0 +1,28 @@
+created: 20200317175618382
+modified: 20200323194340474
+mytag: <<list-links filter:"[tag[Index]!is[system]]">>
+title: Index
+type: text/vnd.tiddlywiki
+
+\define TranscludeTiddler()
+
+<div style="margin: 0.25em; background: #eee; border:1px solid #aaa">
+    <$transclude tiddler=<<currentField>> />  
+---//
+<<currentField>>
+---//
+</div>
+\end
+
+<$list filter="[tag[Index]is[system]]" >
+  <$set 
+    name="currentField" 
+    value={{{ [is[current]field:{title}] }}}>
+  
+    <$macrocall $name="TranscludeTiddler" 
+      tiddler=<<currentField>> />
+  </$set>
+</$list>
+
+
+---

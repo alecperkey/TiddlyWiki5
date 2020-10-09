@@ -1,9 +1,10 @@
 color: #0433ff
 created: 20190115200946360
 data-darkreader-inline-color: 
-modified: 20190115201504452
+list: 
+modified: 20200305034744138
 style: --darkreader-inline-color:#0016e2;
-tags: cloze cloze.es6
+tags: [[Cloze workflow]] cloze.es6
 title: Array.forEach returns nothing while .map returns a new Array of the same size
 type: text/vnd.tiddlywiki
 

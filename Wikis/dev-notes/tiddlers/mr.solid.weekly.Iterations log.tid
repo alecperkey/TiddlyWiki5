@@ -1,0 +1,13 @@
+created: 20200317035834914
+description: Log for [[Weekly Iterations log]]
+modified: 20200317045017621
+source: [[mr.solid.weekly.Iterations]]
+tags: 
+title: mr.solid.weekly.Iterations log
+tmi_type: mr
+type: text/vnd.tiddlywiki
+
+|Source:|{{!!source}}|
+|Description:|{{!!description}}|
+
+<<list-links filter:"[tag[Iterations log]+[has[mr.weekly]]">>

@@ -1,0 +1,15 @@
+created: 20200311095453426
+list: 
+modified: 20200312230650764
+tags: IMC.Demo ToReference Vue
+title: Vue Knowledge Index
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="Official Vue Docs"
+    sort=sort[title]
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>

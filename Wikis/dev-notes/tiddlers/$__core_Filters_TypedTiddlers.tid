@@ -1,0 +1,8 @@
+created: 20200308080623083
+description: {{$:/language/Filters/TypedTiddlers}}
+filter: [!is[system]has[type]each[type]sort[type]] -[type[text/vnd.tiddlywiki]]
+modified: 20200308080624619
+tags: $:/tags/Filter
+title: $:/core/Filters/TypedTiddlers
+type: text/vnd.tiddlywiki
+

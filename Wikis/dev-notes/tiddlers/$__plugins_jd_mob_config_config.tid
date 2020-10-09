@@ -1,6 +1,6 @@
 created: 20171109145547252
 creator: JD
-modified: 20181206200048673
+modified: 20200322231634865
 modifier: JD
 title: $:/plugins/jd/mob/config/config
 type: application/x-tiddler-dictionary
@@ -13,9 +13,9 @@ scrollbars: show
 barpreset: 4
 storyfix: no
 titlebaradjust: no
-topbar: search
+topbar: hide
 topbarchoice: hide
-searchbar: yes
+searchbar: no
 radbuttop: fixedsearch
 searchbarchoice: simple
 bottombar: controls

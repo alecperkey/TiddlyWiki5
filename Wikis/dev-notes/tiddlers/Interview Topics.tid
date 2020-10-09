@@ -1,0 +1,14 @@
+created: 20200310022344364
+modified: 20200310023125135
+order: 2
+tags: interview-guide
+title: Interview Topics
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="Topic"
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>

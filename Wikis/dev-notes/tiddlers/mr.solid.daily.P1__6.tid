@@ -1,0 +1,18 @@
+calendar_slot: daily:9::12
+created: 20200309034315632
+modified: 20200310041533313
+mr.solid.daily_next: [[mr.solid.daily.Lunch_Reflection]]
+tags: 
+title: mr.solid.daily.P1::6
+tmi_type: {{!!title}}
+type: text/vnd.tiddlywiki
+
+
+# Close schedule
+# begin on first Action in its browser tab
+# Finish water #2 during P1::3
+# finish estimated Actions
+# [[Free Time Projects]] Actions with extra time
+
+* //Reminder//
+** //If tempted to quickly check other websites, note in //[[Paper Journal]]// intentions __//for a later time://__//

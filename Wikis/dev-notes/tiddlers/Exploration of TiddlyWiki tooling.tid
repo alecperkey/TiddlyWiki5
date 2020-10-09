@@ -1,11 +1,15 @@
 created: 20181213221557515
 gsd_complete: false
 gsd_contact: 
-gsd_project: 
+gsd_project: Meta
 gsd_realm: all
 gsd_status: future
 gsd_type: project
-modified: 20181214154321687
+<<<<<<< HEAD
+modified: 20200305011348008
+=======
+modified: 20200317191442452
+>>>>>>> aperk
 title: Exploration of TiddlyWiki tooling
 type: text/vnd.tiddlywiki
 

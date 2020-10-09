@@ -1,0 +1,19 @@
+created: 20200305065111034
+gsd_complete: false
+gsd_contact: 
+<<<<<<< HEAD
+gsd_project: compile Advanced Vue Knowledge index
+gsd_realm: all
+gsd_status: future
+gsd_type: action
+modified: 20200317023425283
+=======
+gsd_project: setup /Dev/Topics
+gsd_realm: all
+gsd_status: future
+gsd_type: action
+modified: 20200317191348183
+>>>>>>> aperk
+title: list Most Popular React vs Vue articles
+type: text/vnd.tiddlywiki
+

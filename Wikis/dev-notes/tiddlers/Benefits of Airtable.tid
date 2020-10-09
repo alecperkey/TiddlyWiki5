@@ -1,0 +1,17 @@
+created: 20191001180745552
+modified: 20191001180747730
+title: Benefits of Airtable
+type: text/vnd.tiddlywiki
+
+
+pairing mulitple views to dataset
+
+* set default custom views (vs using tabs, etc)
+** auto-grouping by field (i.e. by sprint, user, etc)
+** filterable & sorted (with easy nesting)
+* location data represented with:
+** google map 'block' showing map
+* time/date fields represented via:
+** kanban view for sprints
+** calendar view for planning, scheduling
+* forms, etc

@@ -1,0 +1,18 @@
+created: 20200307063901421
+modified: 20200308090517425
+tags: time-management
+title: tmi_type
+tmi_type: type
+type: text/vnd.tiddlywiki
+
+;tmi.type
+: is a grouping of [[Time Management Issues]] which often do, but but are a superset of //"too much information!"// problems.
+
+
+<<<
+{{fs_type}}
+<<<
+
+
+//''List of {{!!title}}s: ''//
+<<list-links filter:'[tag[tmi_type]]' >>

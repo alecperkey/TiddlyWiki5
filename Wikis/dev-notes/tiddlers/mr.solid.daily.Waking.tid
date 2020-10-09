@@ -1,0 +1,18 @@
+calendar_slot: daily::7.5::8
+created: 20200309024502071
+list-after: 
+modified: 20200310035948057
+mr.solid.daily_next: [[mr.solid.daily.Breakfast]]
+tags: 
+title: mr.solid.daily.Waking
+tmi_type: {{!!title}}
+tree: tbd
+type: text/vnd.tiddlywiki
+
+* Towel & Clothes ready to go from before
+* Immediate shower
+* Shave
+* Dress
+* Presentation
+* Paper Journal to Kitchen
+

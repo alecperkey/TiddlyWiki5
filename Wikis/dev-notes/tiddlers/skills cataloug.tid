@@ -1,0 +1,64 @@
+created: 20200227032629766
+modified: 20200302152109723
+title: skills cataloug
+type: text/vnd.tiddlywiki
+
+* ~~search 'hire me' channels for rn portfolio exs~~
+* outline from reactjs.org
+* outline from react native resource
+* fill in what I know from memory
+* mark areas to refine conceptual grasp
+* build as an elearning tool
+* put on portfolio site
+* write some articles about work history
+** hilton systems
+** managing team at nexient
+** early react native learning with positive head
+* sample app published
+** https://www.instamobile.io/react-native-tutorials/react-native-app-ideas-beginners/
+** daily habit management / [[routine]]
+*** https://old.reddit.com/r/reactnative/comments/er1yt1/my_new_app_avocation_entirely_built_with_react/
+*** gsd
+*** interval timer
+*** checklist
+*** diet/drug tracker
+**** cognitive test intermittently
+*** mood log - https://old.reddit.com/r/reactnative/comments/bpsmm6/from_nontechnical_to_the_app_store_in_a_year_made/
+** movie/tv show search
+** music search / sorting
+*** Spotify Player - “Can it be done in React Native?” https://www.youtube.com/watch?v=VlSK3W4fWK8
+** Plant/Gardening App https://old.reddit.com/r/reactnative/comments/baf35r/plant_app_react_native_youtube/
+* features
+** drag and drop
+** 
+
+your use of 
+
+*Jest
+*state management
+** refract: https://refract.js.org/examples
+*redux middleware
+*hooks
+*observables
+** [[The introduction to Reactive Programming you've been missing]]: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+*ES6
+*JSON
+*Jira 
+*Immutables
+* ---
+* React areas
+* Redux areas
+* React-Router areas
+* GraphQL areas
+* Other areas of the stack
+
+
+online test scores / certifications
+
+* https://www.hackerrank.com/dashboard
+* https://www.interviewmocha.com/take-practice-test?i=16&t=ReactJS%20(with%20LogicBox)%20Test
+*
+
+online courses
+
+* https://courses.edx.org/courses/course-v1:HarvardX+CS50M+Mobile/course/

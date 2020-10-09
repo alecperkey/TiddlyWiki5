@@ -1,0 +1,32 @@
+created: 20200310235644379
+modified: 20200310235959336
+tags: Developer Vue Contact [[IMC Interview]]
+title: Francisco Quintero
+type: text/vnd.tiddlywiki
+
+Topics tagged {{!!title}}<<list-links filter:'[tag[Ideal Developer]tag[Topic]]'>>
+
+---
+Articles tagged {{!!title}}: <<list-links filter:'[tag[Ideal Developer]tag[Article]]' >>
+
+---
+References tagged {{!!title}}<<list-links filter:'[tag[Ideal Developer]tag[ToReference]]' >>
+
+---
+
+''From Francisco Quintero LinkedIn''
+
+<<<
+Built the front-end for ShopZio and B2B Admin web products as SPAs using [[Vue]].js with [[Typescript]] to handle data typing and [[Vuex]] to handle front-end data management.
+
+Add new features, fix front-end bugs and functionality issues for the above mentioned SPAs as well as for other Web Products, in particular ShopZio Website built in [[Knockout.js, jQuery and vanilla js]].
+
+Build [[Html email templates]] with a mix of the [[Mailchimp]] editor and custom email html development to be used in email marketing campaigns.
+
+Build Html [[static pages]] to be used in different marketing campaigns.
+<<<
+
+
+<<<
+Vue.JS, [[Express]].JS and [[Cordova]]/[[Phonegap]] for the mobile platforms
+<<<

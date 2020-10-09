@@ -1,0 +1,15 @@
+created: 20200311083251716
+list: 1
+modified: 20200311094205488
+tags: Vue-Guide Vue
+title: 3. Topics, Articles, and References
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="toc-tabbed-internal-nav"
+	tag="tab-group"
+    sort=sort[title]
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>

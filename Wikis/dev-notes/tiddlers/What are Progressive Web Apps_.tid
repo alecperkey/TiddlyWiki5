@@ -1,0 +1,58 @@
+created: 20200309014603810
+list: 
+modified: 20200310031010286
+publisher: https://web.dev/
+released: 1/06/2020
+source: https://web.dev/what-are-pwas/#the-three-app-pillars
+tags: Vue [[Progressive Web Apps]] ToExplore ToReference Article _isRead
+title: What are Progressive Web Apps?
+type: text/vnd.tiddlywiki
+
+!![[What are Progressive Web Apps?]]
+
+See also: [[progressive enhancement]], [[service workers]], [[web app manifest]].
+
+Testimonials for [[Progressive Web Apps]]:
+
+* ''//Twitter//'' saw a 65% ''increase in pages per session'', 75% ''more Tweets'', and a 20% ''decrease in bounce rate'', all while'' reducing the size of their app by over 97%''. 
+* After switching to a PWA, ''//Nikkei//'' saw 2.3 times ''more organic traffic'', 58% ''more subscription''s, and 49% ''more daily active users''
+* ''//Hulu//'' replaced their native desktop experience with a Progressive Web App and saw a 27% ''increase in return visits''.
+
+<<<
+Progressive Web Apps are web applications that have been designed so they are capable, reliable, and installable. 
+
+* Capable
+** modern Web APIs (equal or better than Native):
+*** [[WebGL]] and [[WebVR]]
+*** [[Web Assembly]]
+** Pros over Native
+*** Secure, user-centric peprmission model
+*** Ubiquity across devices and os
+*** transparent specification and implementation
+*** reach via search and audience size
+*** for user: always up to date and no cost to entry
+***
+** [[New Features for Web APIs]] (some upcoming)
+*** [[File System Access]]
+*** [[Media Controls]]
+*** [[App Badging]]
+***[[Full Clipboard Support]]
+* Reliable
+** Page load time better
+** offline-first
+** snappy UI / optimistic updates
+** smooth animation performance
+* Installable
+** launchable from the user's home screen, dock, taskbar, or shelf
+** less [[feature restrictions than browser on web applications|Progressive Web App unique features]] when installed:
+*** Keyboard shortcuts previously reserved
+*** can register to accept content from other applications
+*** user may use as default application for handing filetypes
+*** full screenby default
+
+
+[[Native applications]], are known for being incredibly rich and reliable. They're ever-present, on home screens, docks, and taskbars. They work regardless of network connection. They launch in their own standalone experience. They can read and write files from the local file system, access hardware connected via USB, serial or bluetooth, and even interact with data stored on your device, like contacts and calendar events. In native applications, you can do things like take pictures, see playing songs listed on the home screen, or control song playback while in another app. Native applications feel like part of the device they run on.
+
+
+<img src="https://i.imgur.com/zNatix3.png" />
+<<<

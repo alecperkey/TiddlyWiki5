@@ -1,0 +1,12 @@
+created: 20200310021258758
+modified: 20200310021413602
+tags: Topic Wide-Expertise
+title: Code Maintainability
+type: text/vnd.tiddlywiki
+
+* [[Code Maintainability]] & //(Not) Over-Engineering//
+** Admit past errors (they are universal) from Tunnel Vision. 
+*** "Especially working on solo projects, you've got to be self-accountable with time, be your own Scrum Master! If you don't practice the mindfulness and flexibility to avoid stuborn tunnel vision, you wonder how your estimations are always wrong. 
+*** I use something called a Pomodoro timer. Have you ever heard of it?" "No, what is it?" "I think all programmers sometimes get tunnel vision, but I'm especially susceptable to optimistically hammering away at some grand over-engineered solution. Often that's worse than simply hitting a dead end--but the Pomodoro timer rings a bell every 25 minutes, and it's improved my workflow more than any library or fancy tool. I take 5 minutes to reflect mindfully reassess. You get so much in return"
+
+ - written after [[Venmo Interview 1]] call

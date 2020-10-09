@@ -1,0 +1,32 @@
+action: reliably enforce breaks
+created: 20200308102312770
+example: 3/7/2020 [[Pomodoro Reflection log 3/7/2020 2-3, 4-8]]
+modified: 20200308102407470
+solved: no
+tags: yak
+title: Wikitext Playground
+type: text/vnd.tiddlywiki
+
+
+
+
+
+---
+
+<$list filter="[is[current]:field{action}]">
+
+<<list-links filter:"[<currentTiddler>fields[]]">>
+
+<$view field="action"/>
+
+<$view field="solved"/>
+
+<$view field="example"/>
+{{||tmiTemplateHtmlExample}}
+
+<$view field="tags"/>
+
+</$list>
+
+{{||tmiTemplateHtml}}
+{{||tmiTemplateHtmlExample}}

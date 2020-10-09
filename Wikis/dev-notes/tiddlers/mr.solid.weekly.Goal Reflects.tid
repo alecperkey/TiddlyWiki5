@@ -1,0 +1,20 @@
+calendar_slot: Weekly:Saturday:23::24
+created: 20200308214906563
+description: Process for [[Goal Reflects]]
+modified: 20200317052804489
+source: [[mr.solid.weekly.Goal Reflects log]]
+tags: 
+title: mr.solid.weekly.Goal Reflects
+tmi_type: mr.solid.weekly.Goal Reflects
+type: text/vnd.tiddlywiki
+
+|source|[[mr.solid.weekly.Goal Reflects]]|
+|description|{{!!description}}|
+
+* ''Schedule''
+** Calendar slot: ''Weekly:Saturday:23::24''
+** //after// [[Iterations]] //{{mr.solid.weekly.Iterations!!calendar_slot}}//
+* ''Review project progress''
+** Note unfinished Project Actions for rescheduling
+** Process important information from [[Iterations]] for later Action drafting and revision (done in [[Calendar]])
+** Process estimation accuracy for benchmarking

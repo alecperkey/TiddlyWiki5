@@ -1,0 +1,66 @@
+created: 20200310222845754
+list: 
+modified: 20200311022332007
+tags: IMC.Demo [[3.0: wikify Readme]] Demo Vue
+title: 3.0: wikify Readme
+type: text/vnd.tiddlywiki
+
+''Previous'': [[2.b Client Introduction with IMC]]
+
+''Next'': [[3.1: IMC Demo document]]
+
+---
+!! ''TestApplication''
+!!!  Simple VueJS Test Application Project
+<<<
+* <a href="https://github.com/RepZio/TestApplication/blob/master/README.md" rel="noopener noreferrer">original README.md</a>
+* <a href="https://raw.githubusercontent.com/RepZio/TestApplication/master/test.json" rel="noopener noreferrer">original test.json</a>
+<<<
+---
+
+
+!! ''Project Scope:''
+
+
+* `test.json`
+* ''The root object:'' 
+** //Manufacturer branding info//, i.e. ''app must display:'' 
+*** `company name`.
+*** `company logo`
+**** ''Company logo is ~~generated~~ queried'' using the following url format:
+*****`async getLogoImage(manufacturerID)`
+
+```javascript
+http://images.repzio.com/productimages/{{ManufacturerID}}/logo{{ManufacturerID}}_lg.jpg
+
+aka
+
+`http://images.repzio.com/productimages/${ManufacturerID}/logo${ManufacturerID}_lg.jpg`
+```
+
+
+---
+* ''SalesRep:'' This is the ''contact information for the ?__//presentation//__'', be sure to display this contact information.
+
+---
+* ''Items:'' 
+**This is the'' list of products'' ''for the user ''to be able ''to'' ''navigate through''.  
+** Please show 
+*** `ItemID`
+*** `ItemName`
+*** `Description`
+*** `Dimensions` 
+*** `BasePrice`
+
+* ''Features:'' 
+**  //single page application in [[Vue]]JS//
+** [[Feature: view thumbnails of products]]
+*** `async getThumbnail(root.items[i].photoname, options)` thumnails 
+**** resize api: http://imageresizing.net/docs/basics
+** [[click on a single product to view full product details]]
+* ''Design''
+**  a [[simple and clean design]] 
+**  with a [[focus on the product images]].
+** ''No CSS framework allowed.''
+** Must also be [[responsive and work well on all devices (desktop, tablet, phone)]]
+

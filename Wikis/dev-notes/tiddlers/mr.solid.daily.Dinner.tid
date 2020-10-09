@@ -1,0 +1,13 @@
+calendar_slot: daily:18::19
+created: 20200309043617221
+modified: 20200310041652210
+mr.solid.daily_next: [[mr.solid.daily.Freestyle]]
+tags: 
+title: mr.solid.daily.Dinner
+tmi_type: {{!!title}}
+type: text/vnd.tiddlywiki
+
+# 15 minute P:Break excusable as P:Reward #2
+# Dinner, Health, Relaxation priorities
+# Family time, if possible
+

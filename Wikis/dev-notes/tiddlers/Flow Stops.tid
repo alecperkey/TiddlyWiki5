@@ -1,0 +1,14 @@
+about: [[Flow Stops]] which, as a tmi.type (type of [[Time Management Issues]]) may often be resolved with similar tasks.
+created: 20200307063740398
+list: 
+modified: 20200308094856313
+othertreechildren: {{fs.type!!treechildren}}
+tags: tmi_type
+title: Flow Stops
+tree: 
+treechildren: {{fs_type!!treechildren}}
+type: text/vnd.tiddlywiki
+
+{{!!about}}
+
+''<<tree prefix:"~fs_" separator:".">>''

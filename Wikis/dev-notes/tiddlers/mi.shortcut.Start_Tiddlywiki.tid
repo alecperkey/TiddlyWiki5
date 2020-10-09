@@ -1,0 +1,12 @@
+action: [[add Global Hotkeys]] for frequent [[mi.context_switch]]ing
+created: 20190115180426869
+list: 
+modified: 20200308100949140
+solved: no
+tags: mi.ContextSwitch
+title: mi.shortcut.Start_Tiddlywiki
+type: text/vnd.tiddlywiki
+
+Action: {{!!action}}
+
+Solved: {{!!solved}}

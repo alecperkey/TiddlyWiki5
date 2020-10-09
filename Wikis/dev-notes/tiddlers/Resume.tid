@@ -1,0 +1,59 @@
+created: 20200310144434755
+modified: 20200310145816765
+title: Resume
+type: text/vnd.tiddlywiki
+
+* ''Latest Project'': 
+** TiddlyWiki5-inspired non-linear notebook improved with VueJS and GraphQL for performance and to enable reactive plugins, such as multi-user collaboration. 
+*** Plugins: GSD task manager, Pomodoro timer, Incremental reader, mood tracker, IFTTT, etc
+
+* ''Stack'': VueJS 3 (Composition API), Apollo, GraphQL, Azure Functions
+
+* ''Experiments In'': 
+** Natural Language Processing (GPT-2), Ethereum dapps, 
+** [[Discord plugins]], [[bots]], 
+** [[animated emoji composer]], 
+*** [[GSAP vector animation]]
+*** [[D3.js]]
+** [[recommendation engines]], [[trustless protocols]], [[user attention]] and [[data-mining markets]], [[design ethics]], [[data law and policy]]
+
+---
+
+[[Nexient]]
+
+* led development team of 4 to build React Native iOS app
+* continued utilizing best [[NodeJS patterns and practices]]
+* built Express server to set up REST endpoints for handling SQL data ([[FeathersJS]], [[Typescript]])
+* improved on [[development tooling]] and [[team processes]]
+
+
+---
+
+[[IDR/Hilton]]
+
+- remote-contracted for React Native, NodeJS, and GraphQL.
+- authored [[library of reusable universal components]] for consumption by React Native apps for Hilton Hotels development teams.
+- used [[React Primitives]] in order to target as many platforms as possible including: iOS, Android, Windows, [[Sketch]], [[Storybook]].
+- improved [[developer experience]] workflows within the organization.
+- ensured code quality with latest tooling, [[testing]], & best practices.
+
+---
+
+* [[Atomic Design]]
+* Bridged [[HighCharts]] & [[jQuery Datatables]] APIs to work in React ecosystem]]
+** Open-sourced the [[React jQuery Datatables]] wrapper as [[react-jquery-datatables|https://github.com/alecperkey/react-jquery-datatables]] NPM module.
+
+---
+
+Projects out there
+
+* [[Mastercard Conversation Suite]] <a href="http://newsroom.mastercard.com/videos/mastercard-conversation-suite-video/">(video overview)</a> //- PRIME Research//
+
+--- 
+
+*Javascript Development
+**NodeJS, React, React Native, GraphQL, Webpack, Docker, etc
+*[[Usability]]
+**information architecture, user testing, card sorts, site deconstruction, storyboards, process reviews, accessibility inspections
+*[[Graphics]]
+**Photoshop, Illustrator, [[GSAP vector animation]], HighCharts, [[D3.js]], [[data visualization]] best practices

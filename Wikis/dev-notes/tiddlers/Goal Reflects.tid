@@ -1,0 +1,18 @@
+created: 20200308220456902
+description: Reflecting iteratively on weekly project goals. See [[Micro Routines]] for [[Time Management Efforts]]
+modified: 20200317052839308
+source: [[Goal Reflects]]
+title: Goal Reflects
+type: text/vnd.tiddlywiki
+
+|Source:|{{!!source}}|
+|description:|{{!!description}}|
+
+
+<<<
+{{mr.solid.weekly.Goal Reflects}}
+<<<
+
+<<<
+{{mr.solid.weekly.Goal Reflects log}}
+<<<

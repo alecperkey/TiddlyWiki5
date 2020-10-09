@@ -1,0 +1,23 @@
+created: 20200308104141311
+<<<<<<< HEAD
+gsd_complete: false
+gsd_contact: 
+gsd_project: fill Google Calendar
+gsd_realm: all
+gsd_status: waiting
+gsd_type: action
+modified: 20200308110540326
+=======
+gsd_comp_date: 20200317190450773
+gsd_complete: false
+gsd_contact: 
+gsd_project: improve Time Management
+gsd_realm: all
+gsd_status: future
+gsd_type: action
+modified: 20200317190500495
+>>>>>>> aperk
+title: begin Media to Consume index
+type: text/vnd.tiddlywiki
+
+[[Media to Consume index]]

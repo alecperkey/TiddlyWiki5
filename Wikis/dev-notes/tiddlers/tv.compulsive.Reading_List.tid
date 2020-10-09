@@ -1,0 +1,11 @@
+action: update [[Reading List]]
+created: 20200308095859841
+modified: 20200308103424462
+solved: no
+tags: mi.overflow
+title: tv.compulsive.Reading_List
+tmi_type: tv.compulsive
+type: text/vnd.tiddlywiki
+
+|Action|{{!!action}}|
+|Solved|{{!!solved}}|

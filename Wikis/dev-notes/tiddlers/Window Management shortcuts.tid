@@ -1,0 +1,23 @@
+created: 20200308085520240
+modified: 20200308085522555
+title: Window Management shortcuts
+type: text/vnd.tiddlywiki
+
+```
+shortcuts: {
+
+  maximizeApp(application){
+  	// window = getWindow()
+  	maximizeAppInWindow(window, application)
+  },
+  
+  maximizeAppInWindow(window, application){
+  	// call shortcut command
+    switchDesktopTo
+  },
+  
+  getWindow(window = 'active'){
+  	
+  }
+}
+```

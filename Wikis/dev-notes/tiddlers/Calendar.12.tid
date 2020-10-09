@@ -1,0 +1,39 @@
+created: 20200316121150110
+modified: 20200317052506249
+mr.weekly: 12
+tags: Calendar
+title: Calendar.12
+type: text/vnd.tiddlywiki
+
+''//Items with field:mr.weekly[12]//:''
+<ul>
+<$list filter="[!is[system]field:mr.weekly[12]]"> 
+  <li><$link>{{!!title}}</$link></li>
+</$list>
+</ul>
+
+---
+[[Calendar.12]]
+
+* ''Scheduled''
+** //after// [[Iterate.12]] //{{mr.solid.weekly.Iterations!!calendar_slot}}//
+** //after// [[Goal Reflect.12]] //{{mr.solid.weekly.Goal Reflections!!calendar_slot}}//
+** ''Week: ''2020/{{!!calendar_slot}}
+*** replaces daily [[Solid Repeats]] for [[P1::6|mr.solid.daily.P1::6]] //Daily:Mon::Sat::9::12//
+* ''Plan Pomodoro's (P's)'' 
+** Have already [[Goal Reflects|mr.solid.weekly.Goal Reflects]] week prior
+** Allocate [[P1::12]] [[Pomodoros]] for Monday::Saturday
+*** Unfinished Actions from prior week
+*** Existing Actions from project backlogs
+*** New Actions from existing notes
+** Assume some P's interrupted/lost
+*''Update [[Micro Routines]] MR's''
+** with [[Iterations|mr.solid.weekly.Iterations]] items
+
+---
+[[Goal Reflect.12]]
+
+<<<
+{{Goal Reflect.12}}
+<<<
+

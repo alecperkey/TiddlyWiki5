@@ -1,0 +1,12 @@
+created: 20190115214852376
+ext: /AppData/Roaming/Code%20-%20Insiders/User/keybindings.json
+host: http://localhost:8887
+modified: 20200316181208246
+shortcut: C:\Users\user\AppData\Roaming\Code - Insiders\User\settings.json|Code - Insiders\User\
+tags: mi.vsc.shortcuts mi_type
+title: mi.vsc.shortcuts
+type: text/vnd.tiddlywiki
+
+<$macrocall $name="Ext" ext={{{[is[current]field:has{ext}get[ext]]}}}
+host={{{[is[current]field:has{host}get[host]]}}}
+/>
